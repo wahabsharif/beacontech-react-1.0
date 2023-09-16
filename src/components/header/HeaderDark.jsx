@@ -1,14 +1,7 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
-import {
-  FiHome,
-  FiUser,
-  FiSettings,
-  FiGrid,
-  FiCast,
-  FiPhoneOutgoing,
-} from "react-icons/fi";
+import { FiBox, FiSun, FiZap, FiGrid, FiCast, FiPhone } from "react-icons/fi";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -108,19 +101,19 @@ const Header = () => {
         >
           <li>
             <a href="#home">
-              <FiHome />
+              <FiBox />
               <span>Home</span>
             </a>
           </li>
           <li>
             <a href="#about">
-              <FiUser />
+              <FiSun />
               <span>About</span>
             </a>
           </li>
           <li>
             <a href="#service">
-              <FiSettings />
+              <FiZap />
               <span>Serivce</span>
             </a>
           </li>
@@ -138,7 +131,7 @@ const Header = () => {
           </li>
           <li>
             <a href="#contact">
-              <FiPhoneOutgoing />
+              <FiPhone />
               <span>Contact</span>
             </a>
           </li>

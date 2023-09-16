@@ -12,7 +12,7 @@ const SliderDarkAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/7.jpg"
+              process.env.PUBLIC_URL + "img/slider/particle.png"
             })`,
           }}
         ></div>
@@ -31,7 +31,7 @@ const SliderDarkAnimation = () => {
         <div className="content">
           <div className="content_inner">
             <h3 className="name" data-aos="fade-up" data-aos-duration="1200">
-              Hi! I'm Astro
+              Beacon Techh is
             </h3>
             <h1
               className="job"
@@ -44,7 +44,7 @@ const SliderDarkAnimation = () => {
                   loop
                   typeSpeed={150}
                   backSpeed={60}
-                  strings={[" Visual Artist", "Designer", "Developer"]}
+                  strings={["Designer", "Digital Auditor", "Developer"]}
                   smartBackspace
                   shuffle={false}
                   backDelay={1}
@@ -55,7 +55,7 @@ const SliderDarkAnimation = () => {
                   cursorChar="|"
                 />
               </span>
-              <br /> <span>Based In California.</span>
+              <br /> <span>Based In Pakistan.</span>
             </h1>
             <p
               className="text"
@@ -63,9 +63,8 @@ const SliderDarkAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              I'm developer focused on crafting user‑friendly experiences, I am
-              passionate about building excellent software that improves the
-              lives of those around me.
+              We are a creative group of people who design influential brands
+              and digital experiences.
             </p>
             <div
               className="mobile_social"
@@ -85,8 +84,8 @@ const SliderDarkAnimation = () => {
             >
               <a className="anchor" href="#about">
                 <span className="wrapper">
-                  <span className="first">See Portfolio</span>
-                  <span className="second">See Portfolio</span>
+                  <span className="first">See Profile</span>
+                  <span className="second">See Profile</span>
                 </span>
               </a>
             </div>
