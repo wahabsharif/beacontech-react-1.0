@@ -21,23 +21,23 @@ const educationContent = [
 
 const skillsContent = [
   {
-    name: "Web Design",
+    name: "Branding",
+    skillPercent: "97",
+  },
+  {
+    name: "Digital Marketing",
+    skillPercent: "92",
+  },
+  {
+    name: "Video Graphy",
+    skillPercent: "90",
+  },
+  {
+    name: "Software Development",
     skillPercent: "85",
   },
   {
-    name: "Mobile App",
-    skillPercent: "55",
-  },
-  {
-    name: "Illustrator",
-    skillPercent: "65",
-  },
-  {
-    name: "Photoshop",
-    skillPercent: "72",
-  },
-  {
-    name: "Motion Graphy",
+    name: "Content Writing",
     skillPercent: "80",
   },
 ];
