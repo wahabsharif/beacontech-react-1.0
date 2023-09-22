@@ -43,8 +43,10 @@ const HomeDarkAnimation = () => {
       <div className="beny_tm_services" id="service">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Services</span>
-            <h2>I provide wide range of digital services</h2>
+            <span>What We Do</span>
+            <h2>
+              We’ve got everything you need to launch and grow your business
+            </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.

@@ -29,7 +29,7 @@ const Service = () => {
           <div className="list_inner" onClick={toggleModalOne}>
             <img className="svg" src="img/svg/1.svg" alt="" />
             <div className="service_title">
-              <h3>Motion Art Graphy</h3>
+              <h3>Digital Marketing</h3>
             </div>
             <div className="learn_more">
               Learn More<span></span>
