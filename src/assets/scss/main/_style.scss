@@ -762,8 +762,11 @@ body.dark .loader_line:after {
 }
 .beny_tm_hero .content .name {
   font-weight: 400;
-  font-size: 26px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 20px;
   color: #0f172a;
+  margin-top: 50px;
   margin-bottom: 22px;
   @media screen and (max-width: 767px) {
     font-size: 18px;
@@ -1823,7 +1826,11 @@ body.dark .loader_line:after {
   transition: all 1s ease;
   transform: scale(1.4) translateZ(0);
 }
-.beny_tm_testimonials .slick-slide.slick-active.slick-current .item .left .main {
+.beny_tm_testimonials
+  .slick-slide.slick-active.slick-current
+  .item
+  .left
+  .main {
   opacity: 1;
   transition: all 1s 0.3s ease;
   transform: scale(1) translateZ(0);
@@ -1855,8 +1862,16 @@ body.dark .loader_line:after {
 .beny_tm_testimonials .item .right .details {
   transform: translateY(40px);
 }
-.beny_tm_testimonials .slick-slide.slick-active.slick-current .item .right .text,
-.beny_tm_testimonials .slick-slide.slick-active.slick-current .item .right .details {
+.beny_tm_testimonials
+  .slick-slide.slick-active.slick-current
+  .item
+  .right
+  .text,
+.beny_tm_testimonials
+  .slick-slide.slick-active.slick-current
+  .item
+  .right
+  .details {
   transform: translateY(0);
   opacity: 1;
 }
@@ -2524,8 +2539,10 @@ body.modal {
   height: 6px;
   z-index: 100;
   background-color: #f5a201;
-  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .cursor-inner.cursor-hover {
   margin-left: -40px;
@@ -3451,4 +3468,14 @@ body.intro .loader_line:after {
     padding-right: 5px;
     color: #fff;
   }
+}
+.logo-mob {
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+  position: fixed;
+  border: #f5a201 2px solid;
+  border-radius: 10px;
 }

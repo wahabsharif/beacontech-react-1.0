@@ -25,10 +25,23 @@ const ServiceAnimation = () => {
   function toggleModalFour() {
     setIsOpen4(!isOpen4);
   }
+  function toggleModalFive() {
+    setIsOpen5(!isOpen5);
+  }
+  function toggleModalSix() {
+    setIsOpen6(!isOpen6);
+  }
+  function toggleModalSeven() {
+    setIsOpen7(!isOpen7);
+  }
+  function toggleModalEight() {
+    setIsOpen8(!isOpen8);
+  }
 
   return (
     <div className="service_list">
       <ul>
+        {/* SEO one-1 */}
         <li>
           <div
             className="list_inner"
@@ -45,7 +58,7 @@ const ServiceAnimation = () => {
             </div>
           </div>
 
-          {/* Start Modal Motion Graphy */}
+          {/* SEO */}
           <Modal
             isOpen={isOpen}
             onRequestClose={toggleModalOne}
@@ -69,13 +82,14 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/1.jpg"
+                            process.env.PUBLIC_URL +
+                            "img/service/seo-optimization-vactor.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Motion Graphic Breakdown In Cinema 4D</h3>
+                      <h3>SEO: Search Engine Optimization</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s
@@ -134,6 +148,9 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Motion Graphy */}
         </li>
+        {/* SEO one-1 END */}
+
+        {/* 3-D Two-2 */}
         <li>
           <div
             className="list_inner"
@@ -175,7 +192,8 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/2.jpg"
+                            process.env.PUBLIC_URL +
+                            "img/service/3-D-vissualisation.png"
                           })`,
                         }}
                       ></div>
@@ -240,6 +258,9 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Branding & Design */}
         </li>
+        {/* 3-D Two-2 End */}
+
+        {/* Software Development Three-3*/}
         <li>
           <div
             className="list_inner"
@@ -281,7 +302,8 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/3.jpg"
+                            process.env.PUBLIC_URL +
+                            "img/service/software-development.png"
                           })`,
                         }}
                       ></div>
@@ -346,6 +368,9 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Mobile App Design*/}
         </li>
+        {/* Software Development Three-3 End*/}
+
+        {/* Advertisement Four-4 */}
         <li>
           <div
             className="list_inner"
@@ -387,7 +412,8 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/4.jpg"
+                            process.env.PUBLIC_URL +
+                            "img/service/advertising-ads.png"
                           })`,
                         }}
                       ></div>
@@ -454,11 +480,13 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Ui/Ux Consultancy*/}
         </li>
+        {/* Advertisement Four-4 End*/}
 
+        {/* Branding & Design Five-5 */}
         <li>
           <div
             className="list_inner"
-            onClick={toggleModalOne}
+            onClick={toggleModalFive}
             data-aos="fade-right"
             data-aos-duration="1200"
           >
@@ -473,15 +501,15 @@ const ServiceAnimation = () => {
 
           {/* Start Modal Motion Graphy */}
           <Modal
-            isOpen={isOpen}
-            onRequestClose={toggleModalOne}
+            isOpen={isOpen5}
+            onRequestClose={toggleModalFive}
             contentLabel="My dialog"
             className="custom-modal"
             overlayClassName="custom-overlay"
             closeTimeoutMS={500}
           >
             <div className="beny_tm_modalbox_service">
-              <button className="close-modal" onClick={toggleModalOne}>
+              <button className="close-modal" onClick={toggleModalFive}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
               {/* End close icon */}
@@ -495,7 +523,7 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/1.jpg"
+                            process.env.PUBLIC_URL + "/img/service/branding.png"
                           })`,
                         }}
                       ></div>
@@ -560,10 +588,13 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Motion Graphy */}
         </li>
+        {/* Branding & Design Five-5 End*/}
+
+        {/* Web Development Six-6 */}
         <li>
           <div
             className="list_inner"
-            onClick={toggleModalTwo}
+            onClick={toggleModalSix}
             data-aos="fade-right"
             data-aos-duration="1200"
             data-aos-delay="100"
@@ -579,15 +610,15 @@ const ServiceAnimation = () => {
 
           {/* Start Modal Branding & Design */}
           <Modal
-            isOpen={isOpen2}
-            onRequestClose={toggleModalTwo}
+            isOpen={isOpen6}
+            onRequestClose={toggleModalSix}
             contentLabel="My dialog"
             className="custom-modal"
             overlayClassName="custom-overlay"
             closeTimeoutMS={500}
           >
             <div className="beny_tm_modalbox_service">
-              <button className="close-modal" onClick={toggleModalTwo}>
+              <button className="close-modal" onClick={toggleModalSix}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
               {/* End close icon */}
@@ -601,7 +632,8 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/2.jpg"
+                            process.env.PUBLIC_URL +
+                            "/img/service/web-development.png"
                           })`,
                         }}
                       ></div>
@@ -666,10 +698,13 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Branding & Design */}
         </li>
+        {/* Web Development Six-6 End */}
+
+        {/* Content Writing Seven-7 */}
         <li>
           <div
             className="list_inner"
-            onClick={toggleModalThree}
+            onClick={toggleModalSeven}
             data-aos="fade-right"
             data-aos-duration="1200"
             data-aos-delay="200"
@@ -685,15 +720,15 @@ const ServiceAnimation = () => {
 
           {/* Start Modal Mobile App Design */}
           <Modal
-            isOpen={isOpen3}
-            onRequestClose={toggleModalThree}
+            isOpen={isOpen7}
+            onRequestClose={toggleModalSeven}
             contentLabel="My dialog"
             className="custom-modal"
             overlayClassName="custom-overlay"
             closeTimeoutMS={500}
           >
             <div className="beny_tm_modalbox_service">
-              <button className="close-modal" onClick={toggleModalThree}>
+              <button className="close-modal" onClick={toggleModalSeven}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
               {/* End close icon */}
@@ -707,7 +742,8 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/3.jpg"
+                            process.env.PUBLIC_URL +
+                            "img/service/content-writing.png"
                           })`,
                         }}
                       ></div>
@@ -772,10 +808,13 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Mobile App Design*/}
         </li>
+        {/* Content Writing Seven-7 End*/}
+
+        {/* Video Production Eight-8 */}
         <li>
           <div
             className="list_inner"
-            onClick={toggleModalFour}
+            onClick={toggleModalEight}
             data-aos="fade-right"
             data-aos-duration="1200"
             data-aos-delay="300"
@@ -791,15 +830,15 @@ const ServiceAnimation = () => {
 
           {/* Start Modal Modal Ui/Ux Consultancy */}
           <Modal
-            isOpen={isOpen4}
-            onRequestClose={toggleModalFour}
+            isOpen={isOpen8}
+            onRequestClose={toggleModalEight}
             contentLabel="My dialog"
             className="custom-modal"
             overlayClassName="custom-overlay"
             closeTimeoutMS={500}
           >
             <div className="beny_tm_modalbox_service">
-              <button className="close-modal" onClick={toggleModalFour}>
+              <button className="close-modal" onClick={toggleModalEight}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
               {/* End close icon */}
@@ -813,7 +852,8 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/4.jpg"
+                            process.env.PUBLIC_URL +
+                            "img/service/video-production.png"
                           })`,
                         }}
                       ></div>
@@ -880,6 +920,7 @@ const ServiceAnimation = () => {
           </Modal>
           {/* End Modal Ui/Ux Consultancy*/}
         </li>
+        {/* Video Production Eight-8 End*/}
       </ul>
     </div>
   );

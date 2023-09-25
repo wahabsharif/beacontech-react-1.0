@@ -24,13 +24,7 @@ const HomeDarkAnimation = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>FOUNDER & CEO</span>
-            <h2>Waqar Jutt</h2>
-            <p>
-              We’re working on all social media platforms to help companies –
-              big and small – evaluate their customer experiences, which in turn
-              will empower them to make data- and design-driven decisions with
-              humans at their core.
-            </p>
+            <h2>Waqar Ahmad</h2>
           </div>
           {/* End .beny_tm_title */}
           <About />
@@ -47,10 +41,10 @@ const HomeDarkAnimation = () => {
             <h2>
               We’ve got everything you need to launch and grow your business
             </h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
-            </p>
+            </p> */}
           </div>
           {/* End beny_tm_title */}
           <Service />
@@ -62,8 +56,8 @@ const HomeDarkAnimation = () => {
       <div className="beny_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Portfolio</span>
-            <h2>My Portfolio</h2>
+            <span>Showcase</span>
+            <h2>Our Portfolio</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
@@ -100,7 +94,7 @@ const HomeDarkAnimation = () => {
       {/* /TESTIMONIALS */}
 
       {/* NEWS */}
-      <div className="beny_tm_news" id="news">
+      {/* <div className="beny_tm_news" id="news">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Blogs</span>
@@ -110,10 +104,9 @@ const HomeDarkAnimation = () => {
               egestas. Id fermentum nullam ipsum massa.
             </p>
           </div>
-          {/* End beny_tm_title */}
           <Blog />
         </div>
-      </div>
+      </div> */}
       {/* /NEWS */}
 
       {/*  CONTACT */}

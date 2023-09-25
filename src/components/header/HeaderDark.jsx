@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
-import { FiBox, FiSun, FiZap, FiGrid, FiCast, FiPhone } from "react-icons/fi";
+import { FiBox, FiSun, FiZap, FiGrid, FiPhone } from "react-icons/fi";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -35,7 +35,7 @@ const Header = () => {
                   "about",
                   "service",
                   "portfolio",
-                  "news",
+                  // "news",
                   "contact",
                 ]}
                 currentClassName="current"
@@ -65,12 +65,12 @@ const Header = () => {
                     <span className="second">Portfolio</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#news">
                     <span className="first">News</span>
                     <span className="second">News</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#contact">
                     <span className="first">Contact</span>
@@ -78,7 +78,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                  <a href="#contact">
                     <span className="wrapper">
                       <span className="first">Get Free Audit</span>
                       <span className="second">Get Free Audit</span>
@@ -93,6 +93,11 @@ const Header = () => {
       {/* /TOPBAR */}
 
       <div className="mobile-menu-wrapper">
+        <div className="logo-mob">
+          <Link to="/">
+            <img src="/img/logo/bt-icon.png" alt="Beacon Techh Logo" />
+          </Link>
+        </div>
         <Scrollspy
           className="mobile_menu-icon"
           items={["home", "about", "service", "portfolio", "news", "contact"]}
@@ -123,12 +128,12 @@ const Header = () => {
               <span>Portfolio</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#news">
               <FiCast />
               <span>News</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">
               <FiPhone />

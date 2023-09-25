@@ -12,7 +12,7 @@ const SliderDarkAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/particle.png"
+              process.env.PUBLIC_URL + "/img/slider/blue-black-part.jpg"
             })`,
           }}
         ></div>
