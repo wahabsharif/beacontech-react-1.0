@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../components/header/HeaderDark";
+import Header from "../components/header/Header";
 import Slider from "../components/slider/SliderDarkAnimation";
-import About from "../components/about/AboutDarkAnimation";
-import Service from "../components/service/ServiceAnimation";
-import Portfolio from "../components/portfolio/PortfolioAnimation";
+import About from "../components/about/About";
+import Portfolio from "../components/portfolio/Portfolio";
 import Testimonial from "../components/testimonial/Testimonial";
 // import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../components/Contact";
 import Footer from "../components/footer/Footer";
 import Address from "../components/Address";
+import Expertise from "../components/expertise/Expertise";
 
 const Home = () => {
   document.body.classList.add("dark");
@@ -33,7 +33,7 @@ const Home = () => {
       </div>
       {/* /ABOUT */}
 
-      {/* SERVICES */}
+      {/* Expertise */}
       <div className="beny_tm_services" id="service">
         <div className="container">
           <div className="beny_tm_title_holder">
@@ -47,7 +47,7 @@ const Home = () => {
             </p> */}
           </div>
           {/* End beny_tm_title */}
-          <Service />
+          <Expertise />
         </div>
       </div>
       {/* /SERVICES */}

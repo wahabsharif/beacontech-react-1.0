@@ -3,7 +3,7 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 
-const ServiceAnimation = () => {
+const Expertise = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -923,4 +923,4 @@ const ServiceAnimation = () => {
   );
 };
 
-export default ServiceAnimation;
+export default Expertise;

@@ -1,14 +1,7 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
-import {
-  FiHome,
-  FiUser,
-  FiSettings,
-  FiGrid,
-  FiCast,
-  FiPhoneOutgoing,
-} from "react-icons/fi";
+import { FiBox, FiSun, FiZap, FiGrid, FiPhone } from "react-icons/fi";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -31,7 +24,7 @@ const Header = () => {
           <div className="topbar_inner">
             <div className="logo">
               <Link to="/">
-                <img src="img/logo/bt-logo-light.png" alt="beacontechh-logo" />
+                <img src="img/logo/bt-logo-light.png" alt="brand" />
               </Link>
             </div>
             <div className="menu">
@@ -40,9 +33,9 @@ const Header = () => {
                 items={[
                   "home",
                   "about",
-                  "service",
+                  "expertise",
                   "portfolio",
-                  "news",
+                  // "news",
                   "contact",
                 ]}
                 currentClassName="current"
@@ -62,8 +55,8 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#service">
-                    <span className="first">Service</span>
-                    <span className="second">Service</span>
+                    <span className="first">Expertise </span>
+                    <span className="second">Expertise </span>
                   </a>
                 </li>
                 <li>
@@ -72,12 +65,12 @@ const Header = () => {
                     <span className="second">Portfolio</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#news">
                     <span className="first">News</span>
                     <span className="second">News</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#contact">
                     <span className="first">Contact</span>
@@ -85,10 +78,10 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                  <a href="#contact">
                     <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
+                      <span className="first">Get Free Audit</span>
+                      <span className="second">Get Free Audit</span>
                     </span>
                   </a>
                 </li>
@@ -100,6 +93,11 @@ const Header = () => {
       {/* /TOPBAR */}
 
       <div className="mobile-menu-wrapper">
+        <div className="logo-mob">
+          <Link to="/">
+            <img src="/img/logo/bt-icon.png" alt="Beacon Techh Logo" />
+          </Link>
+        </div>
         <Scrollspy
           className="mobile_menu-icon"
           items={["home", "about", "service", "portfolio", "news", "contact"]}
@@ -108,19 +106,19 @@ const Header = () => {
         >
           <li>
             <a href="#home">
-              <FiHome />
+              <FiBox />
               <span>Home</span>
             </a>
           </li>
           <li>
             <a href="#about">
-              <FiUser />
+              <FiSun />
               <span>About</span>
             </a>
           </li>
           <li>
             <a href="#service">
-              <FiSettings />
+              <FiZap />
               <span>Serivce</span>
             </a>
           </li>
@@ -130,15 +128,15 @@ const Header = () => {
               <span>Portfolio</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#news">
               <FiCast />
               <span>News</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">
-              <FiPhoneOutgoing />
+              <FiPhone />
               <span>Contact</span>
             </a>
           </li>

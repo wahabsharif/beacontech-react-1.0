@@ -27,7 +27,7 @@ const Portfolio = () => {
         />
         {/* End Youtube Modal video */}
 
-        <li>
+        <li data-aos="fade-right" data-aos-duration="1200">
           <div className="list_inner video">
             <a
               href="https://www.youtube.com/watch?v=1gyTUHP6ne8"
@@ -46,8 +46,7 @@ const Portfolio = () => {
           </div>
         </li>
         {/* End youtube */}
-
-        <li>
+        <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
           <div className="list_inner video">
             <a
               href="https://player.vimeo.com/video/100171151?h=92d8f1bd0a"
@@ -68,7 +67,11 @@ const Portfolio = () => {
         {/* End vimeo */}
 
         <Gallery>
-          <li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="200"
+          >
             <div className="list_inner">
               <a
                 className="title"
@@ -79,6 +82,7 @@ const Portfolio = () => {
                 <h3>Ave Simone</h3>
                 <span>Dribbble Shoot</span>
               </a>
+
               <Item
                 original="img/portfolio/1.jpg"
                 thumbnail="img/portfolio/1.jpg"
@@ -101,7 +105,11 @@ const Portfolio = () => {
           </li>
           {/* End image popup */}
 
-          <li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="300"
+          >
             <div className="list_inner">
               <a
                 className="title"
@@ -135,7 +143,11 @@ const Portfolio = () => {
           </li>
           {/* End image popup */}
 
-          <li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="400"
+          >
             <div className="list_inner">
               <a
                 className="title"
@@ -169,7 +181,11 @@ const Portfolio = () => {
           </li>
           {/* End image popup */}
 
-          <li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="500"
+          >
             <div className="list_inner">
               <a
                 className="title"
