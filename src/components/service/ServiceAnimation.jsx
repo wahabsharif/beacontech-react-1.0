@@ -83,7 +83,7 @@ const ServiceAnimation = () => {
                         style={{
                           backgroundImage: `url(${
                             process.env.PUBLIC_URL +
-                            "img/service/seo-optimization-vactor.webp"
+                            "img/service/search-enginue-optimization.webp"
                           })`,
                         }}
                       ></div>
@@ -146,7 +146,7 @@ const ServiceAnimation = () => {
             </div>
             {/* End modal box news */}
           </Modal>
-          {/* End Modal Motion Graphy */}
+          {/* End Modal SEO*/}
         </li>
         {/* SEO one-1 END */}
 
@@ -193,13 +193,13 @@ const ServiceAnimation = () => {
                         style={{
                           backgroundImage: `url(${
                             process.env.PUBLIC_URL +
-                            "img/service/3-D-vissualisation.png"
+                            "img/service/3-D-vissualisation.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Branding &amp; Design Breakdown In Cinema 4D</h3>
+                      <h3>3-D Visualization</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s
@@ -303,13 +303,13 @@ const ServiceAnimation = () => {
                         style={{
                           backgroundImage: `url(${
                             process.env.PUBLIC_URL +
-                            "img/service/software-development.png"
+                            "img/service/software-development.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Mobile App Design Breakdown In Cinema 4D</h3>
+                      <h3>Desktop &amp; Mobile Application</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s
@@ -413,15 +413,13 @@ const ServiceAnimation = () => {
                         style={{
                           backgroundImage: `url(${
                             process.env.PUBLIC_URL +
-                            "img/service/advertising-ads.png"
+                            "img/service/advertising.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>
-                        Ui/Ux Consultancy is the trending Part of Graphics
-                      </h3>
+                      <h3>Advertisement</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s
@@ -523,13 +521,14 @@ const ServiceAnimation = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "/img/service/branding.png"
+                            process.env.PUBLIC_URL +
+                            "/img/service/branding.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Motion Graphic Breakdown In Cinema 4D</h3>
+                      <h3>Branding</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s
@@ -633,13 +632,13 @@ const ServiceAnimation = () => {
                         style={{
                           backgroundImage: `url(${
                             process.env.PUBLIC_URL +
-                            "/img/service/web-development.png"
+                            "img/service/web-development.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Branding &amp; Design Breakdown In Cinema 4D</h3>
+                      <h3>Web Development</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s
@@ -743,13 +742,13 @@ const ServiceAnimation = () => {
                         style={{
                           backgroundImage: `url(${
                             process.env.PUBLIC_URL +
-                            "img/service/content-writing.png"
+                            "img/service/content-writing.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Mobile App Design Breakdown In Cinema 4D</h3>
+                      <h3>Content Writing</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s
@@ -853,15 +852,13 @@ const ServiceAnimation = () => {
                         style={{
                           backgroundImage: `url(${
                             process.env.PUBLIC_URL +
-                            "img/service/video-production.png"
+                            "img/service/video-production.webp"
                           })`,
                         }}
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>
-                        Ui/Ux Consultancy is the trending Part of Graphics
-                      </h3>
+                      <h3>Video Production</h3>
                       <p>
                         Just because we can't get out and about like we normally
                         would, doesn’t mean we have to taking pictures. There’s

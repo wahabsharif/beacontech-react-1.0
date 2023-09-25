@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../../components/header/HeaderDark";
-import Slider from "../../components/slider/SliderDarkAnimation";
-import About from "../../components/about/AboutDarkAnimation";
-import Service from "../../components/service/ServiceAnimation";
-import Portfolio from "../../components/portfolio/PortfolioAnimation";
-import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/BlogAnimation";
-import Contact from "../../components/Contact";
-import Footer from "../../components/footer/Footer";
-import Address from "../../components/Address";
+import Header from "../components/header/HeaderDark";
+import Slider from "../components/slider/SliderDarkAnimation";
+import About from "../components/about/AboutDarkAnimation";
+import Service from "../components/service/ServiceAnimation";
+import Portfolio from "../components/portfolio/PortfolioAnimation";
+import Testimonial from "../components/testimonial/Testimonial";
+// import Blog from "../../components/blog/BlogAnimation";
+import Contact from "../components/Contact";
+import Footer from "../components/footer/Footer";
+import Address from "../components/Address";
 
-const HomeDarkAnimation = () => {
+const Home = () => {
   document.body.classList.add("dark");
   return (
     <div className="home-light">
@@ -161,4 +161,4 @@ const HomeDarkAnimation = () => {
   );
 };
 
-export default HomeDarkAnimation;
+export default Home;
