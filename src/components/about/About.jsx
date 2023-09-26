@@ -13,7 +13,7 @@ const AboutDarkAnimation = () => {
             data-aos-duration="1200"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/7.jpg"
+                process.env.PUBLIC_URL + "img/about/waqar-000.jpg"
               })`,
             }}
           ></div>
@@ -27,14 +27,18 @@ const AboutDarkAnimation = () => {
           <div className="short">
             {/* <h3>I'm Bany Astro</h3> */}
             <h5>
-              A Lead <span className="theme-color">Visual Artist </span>
-              based in <span className="theme-color">California</span>
+              <span className="theme-color">Waqar Ahmad </span>
+              is the visionary leader and driving force behind
+              <span className="theme-color"> Beacon Techh</span>.
             </h5>
             <p>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences through meaningful
-              interactions. Check out my Portfolio
+              A renowned software development company known for delivering
+              innovative solutions that drive business success. With a blend of
+              technical expertise and strategic insight, <b>Waqar Ahmad</b>
+              leads a talented team in creating cutting-edge software products
+              that transform industries. Under their guidance,{" "}
+              <b>Beacon Techh</b> continues to excel as a trusted partner for
+              businesses seeking technology-driven solutions.
             </p>
           </div>
           <div className="extra">

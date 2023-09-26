@@ -90,53 +90,64 @@ const Expertise = () => {
                     </div>
                     <div className="description">
                       <h3>SEO: Search Engine Optimization</h3>
+                      <h5>What is SEO?</h5>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        SEO, an acronym for "search engine optimization," is the
+                        systematic method of enhancing your website's online
+                        presence to boost its visibility on popular search
+                        engines like Google, Microsoft Bing, and others when
+                        individuals search for specific products or services.
                       </p>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
+                        Increased visibility of your web pages in search results
+                        leads to a higher probability of discovery and
+                        click-through. In essence, the overarching objective of
+                        search engine optimization is to draw in website
+                        visitors who can potentially convert into customers,
+                        clients, or a recurring audience.
                       </p>
-                      <h3>What Is Branding?</h3>
+                      <h3>SEO vs. SEM</h3>
                       <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
+                        SEM, which stands for search engine marketing or search
+                        marketing, is a facet of digital marketing that
+                        encompasses a combination of SEO (search engine
+                        optimization) and PPC (pay-per-click) activities. The
+                        primary objective of search marketing is to generate
+                        website traffic and enhance visibility through both
+                        organic search (SEO) and paid search (PPC) methods.
+                      </p>
+                      <p>
+                        To simplify the distinction between SEO and SEM, it's
+                        important to note that SEO is a subset of SEM:
                       </p>
                       <div className="in_list">
                         <ul>
                           <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
+                            <p>
+                              SEO involves the pursuit of organic traffic from
+                              search engines.
+                            </p>
                           </li>
                           <li>
                             <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
+                              SEM encompasses the acquisition of both organic
+                              and paid traffic from search engines.
                             </p>
                           </li>
                         </ul>
                       </div>
                       <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
+                        However, in contemporary usage, SEM is frequently used
+                        interchangeably with PPC, which can create some
+                        confusion. It's essential to recognize that SEO and PPC
+                        are both integral components of marketing.
+                      </p>
+                      <p>To provide a clearer perspective on SEO and SEM:</p>
+                      <p>
+                        Think of SEM as a coin, where SEO represents one side,
+                        and PPC is the other side. These two aspects, SEO and
+                        PPC, collectively form the realm of search engine
+                        marketing.
                       </p>
                     </div>
                   </div>
@@ -199,55 +210,92 @@ const Expertise = () => {
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>3-D Visualization</h3>
+                      <h3>What is 3-D Visualization Rendering?</h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        3D visualization is a multifaceted process that combines
+                        technical and artistic elements to produce
+                        three-dimensional representations of real or future
+                        real-world objects. Its application spans various
+                        industries, including manufacturing, architecture, and
+                        multimedia. 3D visualization empowers the portrayal of
+                        visual graphics with tangible shape and depth,
+                        effectively breathing life into projects for engineers
+                        and artists alike.
+                      </p>
+                      <h5>1- Real-time 3D visualization</h5>
+                      <p>
+                        While it is a relatively recent addition to the field,
+                        real-time 3D visualization is rapidly gaining
+                        prominence. Real-time 3D software allows for the swift
+                        digital rendering of fully interactive 3D models,
+                        environments, digital twins, and complete virtual
+                        worlds. This capability represents a substantial
+                        advantage compared to conventional content creation
+                        tools.
+                      </p>
+                      <h5>2- Physical modeling</h5>
+                      <p>
+                        Physical models, encompassing 3D printed models, clay
+                        models for cars, drawings, and foam board replicas,
+                        constitute the most prevalent category of visualization
+                        methods. These physical representations are favored by
+                        those who adhere to traditional practices. However, it's
+                        important to note that physical models fall short in
+                        terms of providing high fidelity or interactivity.
+                        Additionally, they prove to be costly and time-intensive
+                        when it comes to iterating on multiple concepts or
+                        versions.
+                      </p>
+                      <h5>3- 2D visualization</h5>
+                      <p>
+                        More efficient and cost-effective than physical
+                        modeling, 2D visualization involves the presentation of
+                        static two-dimensional images. This includes digital
+                        drawings, computer-generated images (CGI), and
+                        photographs. While it ranks as the second most widely
+                        used visualization method, 2D visualization has
+                        limitations in conveying scale and proportion
+                        effectively. Designers frequently need to generate
+                        multiple renderings to simulate the necessary
+                        perspective and depth of field (DoF) to achieve a
+                        convincing real-world semblance.
+                      </p>
+                      <h3>Why is 3D visualization important?</h3>
+                      <p>
+                        Companies that make physical objects often use various
+                        tools like images and videos for visualization. But 3D
+                        visualization provides richer information than 2D
+                        images.
                       </p>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
-                      </p>
-                      <h3>What Is Branding?</h3>
-                      <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
+                        3D visualization's strength lies in its capacity to
+                        mimic reality, offering several advantages, such as:
                       </p>
                       <div className="in_list">
                         <ul>
                           <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
+                            <p>
+                              <b>Cost savings</b> result from reduced dependence
+                              on costly physical prototypes and early detection
+                              of design and engineering issues.
+                            </p>
                           </li>
                           <li>
                             <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
+                              <b>Quicker market entry</b> is achieved by
+                              facilitating collaboration and communication among
+                              teams.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              <b>Enhanced sales</b> are realized by showcasing
+                              products in captivating ways beyond conventional
+                              multimedia formats.
                             </p>
                           </li>
                         </ul>
                       </div>
-                      <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
-                      </p>
                     </div>
                   </div>
                 </div>
