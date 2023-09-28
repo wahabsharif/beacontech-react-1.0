@@ -33,7 +33,7 @@ const Header = () => {
                 items={[
                   "home",
                   "about",
-                  "expertise",
+                  "service",
                   "portfolio",
                   // "news",
                   "contact",

@@ -6,14 +6,10 @@ const Footer = () => {
       <div className="inner">
         <div className="copy">
           <p>
-            &copy; {new Date().getFullYear()}
-            {/* <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noreferrer"
-            >
-              ib-themes
-            </a> */}
+            &copy; {new Date().getFullYear()}-
+            <a href="/" target="_blank" rel="noreferrer">
+              Beacon Techh
+            </a>
             . All rights reserved.
           </p>
         </div>

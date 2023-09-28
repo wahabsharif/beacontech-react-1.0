@@ -59,8 +59,10 @@ const Home = () => {
             <span>Showcase</span>
             <h2>Our Portfolio</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              "Browse our portfolio to explore a curated selection of our best
+              work, showcasing expertise in Different areas. From innovative
+              designs to impactful campaigns, these projects demonstrate our
+              dedication to excellence and creativity."
             </p>
           </div>
           {/* End beny_tm_title */}

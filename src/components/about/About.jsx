@@ -13,7 +13,7 @@ const AboutDarkAnimation = () => {
             data-aos-duration="1200"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/waqar-000.jpg"
+                process.env.PUBLIC_URL + "img/about/waqar-ahmad-ceo.jpg"
               })`,
             }}
           ></div>
@@ -42,8 +42,8 @@ const AboutDarkAnimation = () => {
             </p>
           </div>
           <div className="extra">
-            <h3 className="title">Personal Info</h3>
-            <div className="list">
+            {/* <h3 className="title">Personal Info</h3> */}
+            {/* <div className="list">
               <ul>
                 <li>
                   <p>
@@ -86,7 +86,7 @@ const AboutDarkAnimation = () => {
                   </p>
                 </li>
               </ul>
-            </div>
+            </div> */}
             {/* End list */}
             {/* <div className="beny_tm_button color-outline">
               <a href="img/about/cv.webp" download>

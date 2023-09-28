@@ -357,55 +357,46 @@ const Expertise = () => {
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Desktop &amp; Mobile Application</h3>
+                      <h3>What is Software Development?</h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        Software development encompasses the activities of
+                        conceiving, crafting, verifying, and upkeeping diverse
+                        software applications. It draws upon a range of
+                        principles and methodologies derived from computer
+                        science, engineering, and mathematical analysis. The
+                        overarching objective of software development is to
+                        produce software that is both effective, dependable, and
+                        user-friendly.
                       </p>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
-                      </p>
-                      <h3>What Is Branding?</h3>
-                      <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
+                        The process of software development typically begins
+                        with the requirements-gathering phase.
                       </p>
                       <div className="in_list">
                         <ul>
                           <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
+                            <p>
+                              In this phase, the software application
+                              requirements are gathered from various
+                              stakeholders.
+                            </p>
                           </li>
                           <li>
                             <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
+                              These requirements are then analyzed and used to
+                              create a software design.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              And the software design is then implemented in
+                              code, which is then tested to ensure that it meets
+                              the requirements. Once the code is verified, it is
+                              deployed to the production environment.
                             </p>
                           </li>
                         </ul>
                       </div>
-                      <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -467,55 +458,119 @@ const Expertise = () => {
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Advertisement</h3>
+                      <h3>The definition of advertisement</h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        In order to grasp the concept of an advertisement, it's
+                        essential to start with an understanding of advertising.
+                        Advertising is an industry devoted to capturing the
+                        public's attention, typically with the aim of promoting
+                        a product or service.
                       </p>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
+                        An advertisement, on the other hand, can be defined as a
+                        method of communication used to promote a product,
+                        brand, or service to an audience, with the ultimate goal
+                        of generating interest, engagement, and sales.
+                        Advertisements, often referred to as ads or adverts,
+                        take various formats, ranging from written content to
+                        interactive videos, and they have evolved to become a
+                        vital component of the app marketplace.
                       </p>
-                      <h3>What Is Branding?</h3>
+                      <h3>Why are advertisements important?</h3>
                       <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
+                        Advertisements provide a reliable means of connecting
+                        with an audience. Through the creation of compelling ads
+                        and allocating sufficient resources to reach the
+                        intended audience, advertisements can deliver immediate
+                        benefits to a business. These outcomes may manifest as
+                        enhanced sales, heightened brand visibility, and
+                        numerous other measurable metrics. Typically, an
+                        advertising strategy incorporates Key Performance
+                        Indicators (KPIs) to gauge and assess the impact of
+                        these efforts.
+                      </p>
+                      <h3>What do in-app ads look like?</h3>
+                      <p>
+                        In-app advertising can take many forms, including text,
+                        banners, push notifications and pre or post-roll video
+                        ads. Such video adverts are usually around 10-15 seconds
+                        long (though they can vary) and normally showcase the
+                        product within that time. Increasingly, advertising is
+                        becoming interactive, providing more engagement for
+                        users in the era of scrolling. One such example is the
+                        use of deep linking, a feature which allows advertisers
+                        to send users directly to an install page in a single
+                        click. As CTV continues to gain prominence in the
+                        advertising space we’re seeing creative, interactive
+                        methods emerge, including the use of QR codes to direct
+                        users from their TVs to the source of the ad on mobile.
+                      </p>
+                      <h3>Which ad format should I use?</h3>
+                      <p>
+                        Opting for the appropriate ad format can often be a
+                        pivotal choice in the realm of advertising. It can
+                        significantly influence the success or failure of a
+                        campaign. Let's explore some prevalent ad formats in
+                        mobile advertising and pinpoint scenarios where they can
+                        be especially impactful.
                       </p>
                       <div className="in_list">
                         <ul>
                           <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
-                          </li>
-                          <li>
+                            <h5>Banner ads</h5>
                             <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
+                              With banner ads, the aim is to display an image
+                              and wait for users to view, click and convert –
+                              making quality graphics and a compelling call to
+                              action (CTA) essential components.
+                            </p>
+                          </li>
+                          <li>
+                            <h5>Interstitial ads</h5>
+                            <p>
+                              Interstitial ads offer a full-screen experience.
+                              These can be used to avoid ‘banner blindness’,
+                              when users become so accustomed to seeing banner
+                              ads that they no longer take notice. Interstitial
+                              ads can also be expandable (known as expandable
+                              ads), which start out as regular banner ads before
+                              taking up the whole screen.
+                            </p>
+                          </li>
+                          <li>
+                            <h5>Native ads</h5>
+                            <p>
+                              Native advertising is when ads are designed to
+                              match the environment in which they are placed.
+                              For example, when you see a ‘sponsored’ tag
+                              attached to a YouTube video, this is native
+                              advertising on that particular platform.
+                            </p>
+                          </li>
+                          <li>
+                            <h5>Video ads</h5>
+                            <p>
+                              As their name suggests, video ads are
+                              advertisements in video format. By their nature,
+                              video ads are a popular advertising method because
+                              they can be highly engaging, offering great CTR
+                              (click through rate).
+                            </p>
+                          </li>
+                          <li>
+                            <h5>Playable ads</h5>
+                            <p>
+                              By giving users access to interactive gameplay,
+                              playable ads let you try before you buy. This
+                              gives users a limited look at an app, offering
+                              highlights that should push users to install.
+                              Because users can gauge their interest before
+                              purchasing the app, playable ads can be used to
+                              reduce app uninstall rates.
                             </p>
                           </li>
                         </ul>
                       </div>
-                      <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -576,54 +631,31 @@ const Expertise = () => {
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Branding</h3>
+                      <h3>What is Branding in Marketing?</h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        Branding is the strategic endeavor of establishing a
+                        robust and favorable image of a company, its offerings,
+                        or services within the minds of consumers. This is
+                        achieved by amalgamating various elements, including a
+                        distinctive logo, cohesive design, a clearly defined
+                        mission statement, and a consistent thematic approach
+                        across all marketing communications. Successful branding
+                        serves to set companies apart from their rivals and
+                        fosters the cultivation of a devoted customer following.
                       </p>
+                      <h3>Why is Branding Important?</h3>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
-                      </p>
-                      <h3>What Is Branding?</h3>
-                      <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
-                      </p>
-                      <div className="in_list">
-                        <ul>
-                          <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
-                          </li>
-                          <li>
-                            <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                      <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
+                        A distinctive brand can exert a substantial influence on
+                        your financial performance by furnishing you with a
+                        competitive edge in the market. It aids in the
+                        cost-effective acquisition and retention of customers,
+                        thereby contributing to a healthier bottom line. This is
+                        especially pronounced in the realm of eCommerce, an
+                        arena characterized by the continual emergence of new
+                        companies and, consequently, fresh competitors. In this
+                        context, an established brand can prove to be an
+                        invaluable asset, attracting customers and driving
+                        profitable outcomes.
                       </p>
                     </div>
                   </div>
@@ -686,54 +718,62 @@ const Expertise = () => {
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Web Development</h3>
+                      <h3>What Exactly is Web Development?</h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        Web development is intricately connected to the task of
+                        conceptualizing and crafting the features and
+                        functionalities of websites and applications, which is
+                        commonly referred to as "web design." However, the term
+                        "web development" typically specifically refers to the
+                        tangible process of building and programming these
+                        websites and applications, encompassing the technical
+                        aspects involved in bringing the design concepts to
+                        life.
                       </p>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
+                        Consider all the web pages you've interacted with over
+                        the years; it's the work of web developers that ensures
+                        these sites operate seamlessly and provide an
+                        exceptional user experience. Web developers achieve this
+                        by meticulously crafting lines of code, employing an
+                        array of programming languages tailored to their
+                        specific tasks and the platforms they are working on.
                       </p>
-                      <h3>What Is Branding?</h3>
+                      <h3>Types of Web Development</h3>
                       <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
+                        Web development can be broadly categorized into three
+                        primary types:
                       </p>
-                      <div className="in_list">
-                        <ul>
-                          <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
-                          </li>
-                          <li>
-                            <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
                       <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
+                        <b>Front-end Development:</b> Front-end developers focus
+                        on the user interface and user experience aspects of a
+                        website or application. They work on the design and
+                        functionality that users interact with directly in their
+                        web browsers. This involves coding the layout, visuals,
+                        and interactive elements using technologies like HTML,
+                        CSS, and JavaScript. Front-end developers aim to create
+                        an engaging and responsive user interface.
+                      </p>
+                      <p>
+                        <b>Back-end Development:</b> Back-end developers are
+                        responsible for the server-side of web development. They
+                        work on the behind-the-scenes logic, databases, and
+                        server infrastructure that power a website or
+                        application. Back-end development often involves working
+                        with programming languages like Python, Ruby, PHP, and
+                        frameworks like Node.js. Back-end developers ensure that
+                        data is processed, stored, and retrieved efficiently and
+                        securely
+                      </p>
+                      <p>
+                        <b>Full-stack Development:</b> Full-stack developers are
+                        proficient in both front-end and back-end development.
+                        They have a comprehensive understanding of the entire
+                        web development stack, from designing user interfaces to
+                        implementing server-side functionality. Full-stack
+                        developers are versatile and can work on all aspects of
+                        a project, making them valuable in smaller teams or
+                        startups where resources are limited.
                       </p>
                     </div>
                   </div>
@@ -796,54 +836,84 @@ const Expertise = () => {
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Content Writing</h3>
+                      <h3>What is content writing?</h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        Content writing encompasses the creation of digital
+                        content that forms an integral part of a brand's
+                        marketing strategy. This content can encompass a wide
+                        range of materials, including:
                       </p>
+                      <h5>Website Content:</h5>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
+                        This includes crafting engaging and informative content
+                        for a brand's website, such as homepage copy, product or
+                        service descriptions, about pages, and blog posts.
                       </p>
-                      <h3>What Is Branding?</h3>
+                      <h5>Blog Posts and Articles: </h5>
                       <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
+                        Content writers often produce blog articles and
+                        informative posts that provide value to the target
+                        audience. These can cover industry trends, how-to
+                        guides, insights, and more.
                       </p>
-                      <div className="in_list">
-                        <ul>
-                          <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
-                          </li>
-                          <li>
-                            <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
+                      <h5>Social Media Content: </h5>
                       <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
+                        Content writers develop text and captions for social
+                        media platforms like Facebook, Instagram, Twitter, and
+                        LinkedIn to engage the audience, promote products or
+                        services, and share relevant information.
+                      </p>
+                      <h5>Email Marketing:</h5>
+                      <p>
+                        Writing persuasive and personalized email campaigns,
+                        newsletters, and email sequences to connect with
+                        subscribers, promote offers, or nurture leads.
+                      </p>
+                      <h5>Video Scripts: </h5>
+                      <p>
+                        Crafting scripts for video content, such as explainer
+                        videos, tutorials, or promotional videos.
+                      </p>
+                      <h5>Ebooks and Whitepapers: </h5>
+                      <p>
+                        Creating in-depth and informative resources like ebooks
+                        and whitepapers to showcase expertise and generate
+                        leads.
+                      </p>
+                      <h5>Press Releases: </h5>
+                      <p>
+                        Writing press releases to announce important company
+                        news, product launches, or events.
+                      </p>
+                      <h5>Info graphics: </h5>
+                      <p>
+                        Developing content for infographics that convey complex
+                        information in a visually appealing and
+                        easy-to-understand format.
+                      </p>
+                      <h5>Product Descriptions: </h5>
+                      <p>
+                        Crafting compelling product descriptions for e-commerce
+                        websites, highlighting features, benefits, and
+                        uniqueness.
+                      </p>
+                      <h5>Advertising Copy: </h5>
+                      <p>
+                        Creating persuasive ad copy for online advertising
+                        campaigns, including Google Ads, Facebook Ads, and
+                        display ads.
+                      </p>
+                      <h5>SEO Content: </h5>
+                      <p>
+                        Writing content optimized for search engines (SEO),
+                        which involves using keywords strategically to improve
+                        organic search rankings.
+                      </p>
+                      <h5>Content Strategy: </h5>
+                      <p>
+                        Developing a content strategy that aligns with the
+                        brand's goals, target audience, and marketing
+                        objectives.
                       </p>
                     </div>
                   </div>
@@ -906,54 +976,74 @@ const Expertise = () => {
                       ></div>
                     </div>
                     <div className="description">
-                      <h3>Video Production</h3>
+                      <h3>What is Video Production?</h3>
                       <p>
-                        Just because we can't get out and about like we normally
-                        would, doesn’t mean we have to taking pictures. There’s
-                        still plenty you can do, provided you're prepared to use
-                        some imagination. Here are a few ideas to keep you
-                        shooting until normal life resumes.
+                        Video production encompasses all aspects involved in
+                        conceptualizing, organizing, and carrying out the
+                        creation of a video. Traditionally, video production
+                        comprises three distinct phases: Pre-production,
+                        Production, and Post-production.
                       </p>
+                      <h3>What’s the Difference?</h3>
                       <p>
-                        Most photographers love to shoot the unusual, and you
-                        don’t get much more unusual than These Unprecedented
-                        Times. Right now everything counts as out of the
-                        ordinary. There are a number of remarkable things about
-                        these lockdown days that are worth photographing now we
-                        can remember them when it is all over.
+                        Video production stands out as a distinct genre,
+                        utilizing a diverse range of technical, creative, and
+                        design methodologies to convey a concise narrative,
+                        typically for the promotion of a product, idea, company,
+                        or concept. Here's how this medium compares to other
+                        similar video styles:
                       </p>
-                      <h3>What Is Branding?</h3>
+                      <h5>Video production vs. film production</h5>
                       <p>
-                        Nullam blandit constituto eam ne, te nam ignota
-                        vituper.atoribus. Malis cetero quem saipe, prou
-                        thendrerit voluptaria.
+                        The key distinction between video production and film
+                        production lies in the medium employed to achieve the
+                        final outcome. Film production relies on the use of film
+                        stock to record the visual content captured by the
+                        camera, whereas video production records images using
+                        formats like tape or memory cards. Although the
+                        prevalence of film is diminishing, the term "film
+                        production" continues to persist in common usage,
+                        reflecting a longstanding industry convention.
                       </p>
-                      <div className="in_list">
-                        <ul>
-                          <li>
-                            <p>Email is a crucial channel in any marketing.</p>
-                          </li>
-                          <li>
-                            <p>Curious what to say? How to say it?</p>
-                          </li>
-                          <li>
-                            <p>Whether you’re kicking off a new ca mpaign.</p>
-                          </li>
-                          <li>
-                            <p>
-                              Habitasse per feugiat aliquam luctus accumsan
-                              curae
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
+                      <h5>Video production vs. videography</h5>
                       <p>
-                        Streets empty that are usually busy are remarkable and
-                        can evoke the sense of historical pictures from before
-                        the invention of the motorcar. Other things that are
-                        different at the moment will be queues to get into
-                        stores and the lines marked out on the floor to show how
-                        far apart we should be.
+                        Video production distinguishes itself from videography
+                        through the extensive planning and storytelling
+                        direction involved. In video production, meticulous
+                        attention is given to every facet, starting from the
+                        creative concept and progressing to the execution, often
+                        accompanied by comprehensive scripts, storyboards, and
+                        scene planning. Conversely, video graphy tends to be
+                        more spontaneous, focusing on capturing interviews or
+                        events with greater reliance on the camera operator's
+                        control and intuition.
+                      </p>
+                      <h5>Video production vs. video editing</h5>
+                      <p>
+                        Video editing, also known as post-production,
+                        constitutes a distinct phase within the broader video
+                        production process. It involves the technical
+                        manipulation of recorded footage by an editor at a
+                        computer workstation after the filming is complete. On
+                        the other hand, video production encompasses the
+                        comprehensive process executed by a team of specialists
+                        who collaborate to capture, process, and edit the visual
+                        elements to create the final video product. In essence,
+                        video production is the encompassing workflow, whereas
+                        video editing is a crucial step within that workflow.
+                      </p>
+                      <h3>Why Video Production?</h3>
+                      <p>
+                        Video stands as one of the most effective and
+                        influential forms of media utilized today to captivate,
+                        motivate, or instruct an audience. Through the fusion of
+                        visual and auditory components, video production offers
+                        the capability to completely immerse a particular
+                        audience and guide them through a narrative using both
+                        creative and technical craftsmanship. Given its
+                        remarkable versatility, many contend that video
+                        production is the ultimate medium for achieving a wide
+                        array of storytelling objectives.
                       </p>
                     </div>
                   </div>

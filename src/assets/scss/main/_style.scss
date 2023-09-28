@@ -391,9 +391,10 @@ body.dark .loader_line:after {
   justify-content: space-between;
 }
 .beny_tm_topbar .logo img {
-  max-width: 180px;
+  max-width: 300px;
   max-height: 100%;
 }
+
 .beny_tm_topbar ul {
   margin: 0px;
   list-style-type: none;
@@ -761,8 +762,8 @@ body.dark .loader_line:after {
   align-items: center;
 }
 .beny_tm_hero .content .name {
-  font-weight: 400;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 20px;
   color: #0f172a;
@@ -2487,8 +2488,8 @@ body.modal {
   height: auto;
   clear: both;
   float: left;
-  background-color: #191c26;
-  padding: 30px 0px;
+  background-color: #08324b;
+  padding: 10px 0px;
 }
 .beny_tm_copyright .inner {
   width: 100%;
@@ -2753,7 +2754,7 @@ body.modal {
   height: auto;
   clear: both;
   float: left;
-  background-color: #191c26;
+  background-color: #08324b;
   text-align: center;
   padding: 20px 0px;
 }
@@ -3477,5 +3478,6 @@ body.intro .loader_line:after {
   z-index: 100;
   position: fixed;
   border: #f5a201 2px solid;
+  background-color: #fff;
   border-radius: 10px;
 }
