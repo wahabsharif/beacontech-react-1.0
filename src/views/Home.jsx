@@ -4,7 +4,7 @@ import Slider from "../components/slider/SliderDarkAnimation";
 import About from "../components/about/About";
 import Portfolio from "../components/portfolio/Portfolio";
 import Testimonial from "../components/testimonial/Testimonial";
-// import Blog from "../../components/blog/BlogAnimation";
+import Pricing from "../components/team/Pricing";
 import Contact from "../components/Contact";
 import Footer from "../components/footer/Footer";
 import Address from "../components/Address";
@@ -50,7 +50,25 @@ const Home = () => {
           <Expertise />
         </div>
       </div>
-      {/* /SERVICES */}
+      {/* /Expertise */}
+
+      {/* Pricing */}
+      <div className="beny_tm_news" id="news">
+        <div className="container">
+          <div className="beny_tm_title_holder">
+            <span>Team</span>
+            <h2>Beacon Buddies</h2>
+            <p>
+              "Highly skilled and innovative Beacon Techh team, specializing in
+              creating cutting-edge solutions for diverse industries. We combine
+              technical expertise with a passion for problem-solving to deliver
+              exceptional software products tailored to your unique needs."
+            </p>
+          </div>
+          <Pricing />
+        </div>
+      </div>
+      {/* /Pricing */}
 
       {/* PORTFOLIO */}
       <div className="beny_tm_portfolio" id="portfolio">
@@ -94,22 +112,6 @@ const Home = () => {
         </div>
       </div>
       {/* /TESTIMONIALS */}
-
-      {/* NEWS */}
-      {/* <div className="beny_tm_news" id="news">
-        <div className="container">
-          <div className="beny_tm_title_holder">
-            <span>Blogs</span>
-            <h2>Recent News</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p>
-          </div>
-          <Blog />
-        </div>
-      </div> */}
-      {/* /NEWS */}
 
       {/*  CONTACT */}
       <div className="beny_tm_contact" id="contact">

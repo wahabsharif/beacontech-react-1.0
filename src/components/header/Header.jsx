@@ -34,8 +34,8 @@ const Header = () => {
                   "home",
                   "about",
                   "service",
+                  "news",
                   "portfolio",
-                  // "news",
                   "contact",
                 ]}
                 currentClassName="current"
@@ -60,17 +60,17 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
+                  <a href="#news">
+                    <span className="first">Pricing</span>
+                    <span className="second">Pricing</span>
+                  </a>
+                </li>
+                <li>
                   <a href="#portfolio">
                     <span className="first">Portfolio</span>
                     <span className="second">Portfolio</span>
                   </a>
                 </li>
-                {/* <li>
-                  <a href="#news">
-                    <span className="first">News</span>
-                    <span className="second">News</span>
-                  </a>
-                </li> */}
                 <li>
                   <a href="#contact">
                     <span className="first">Contact</span>

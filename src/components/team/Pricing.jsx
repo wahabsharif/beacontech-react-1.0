@@ -4,7 +4,7 @@ import Social from "../Social";
 
 Modal.setAppElement("#root");
 
-const Blog = () => {
+const Pricing = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -39,10 +39,10 @@ const Blog = () => {
               {/* End image */}
               <div className="details">
                 <span>
-                  April 07,2021 <a href="/">Travel Landing</a>
+                  <a href="/">MANAGING DIRECTOR</a>
                 </span>
                 <h3 className="title" onClick={toggleModalOne}>
-                  Dostie Memorie
+                  Jawad Anwer
                 </h3>
               </div>
               {/* End details */}
@@ -176,10 +176,10 @@ const Blog = () => {
 
               <div className="details">
                 <span>
-                  April 07,2021 <a href="/">Inspiration</a>
+                  <a href="/">BUSINESS OUTREACH OFFICER</a>
                 </span>
                 <h3 className="title" onClick={toggleModalTwo}>
-                  Chul Urina
+                  M Daniyal Tahir
                 </h3>
               </div>
               {/* End details */}
@@ -307,10 +307,10 @@ const Blog = () => {
 
               <div className="details">
                 <span>
-                  April 07,2021 <a href="/">Inspiration</a>
+                  <a href="/">ASSISTANT MANAGER</a>
                 </span>
                 <h3 className="title" onClick={toggleModalThree}>
-                  Chul Urina
+                  Muhammad Tayyab
                 </h3>
               </div>
               {/* End details */}
@@ -425,4 +425,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Pricing;

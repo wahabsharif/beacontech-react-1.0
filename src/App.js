@@ -4,6 +4,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import AnimatedCursor from "react-animated-cursor";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./assets/css/style.css";
 
 const App = () => {
   useEffect(() => {
