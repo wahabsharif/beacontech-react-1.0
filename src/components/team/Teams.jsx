@@ -133,12 +133,12 @@ const Teams = () => {
           <li>
             <div className="list_inner">
               <div className="image">
-                <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                <img src="img/teams/shahab.png" alt="thumb" />
                 <div
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/news/3.jpg"
+                      process.env.PUBLIC_URL + "img/teams/shahab.png"
                     })`,
                   }}
                 ></div>
@@ -146,9 +146,9 @@ const Teams = () => {
               {/* END IMAGE */}
 
               <div className="details">
-                <h3 className="title">Usama Amir</h3>
+                <h3 className="title">Shahab Munir</h3>
                 <span>
-                  <a href="/">Cinematographer</a>
+                  <a href="/">Graphic Chacha</a>
                 </span>
               </div>
               {/* End details */}
