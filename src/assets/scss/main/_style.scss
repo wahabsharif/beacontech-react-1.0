@@ -950,7 +950,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   background-color: #f9f9fc;
-  padding: 120px 0px;
+  padding: 5px 0px;
 }
 .beny_tm_title_holder {
   width: 100%;
@@ -958,6 +958,7 @@ body.dark .loader_line:after {
   height: auto;
   clear: both;
   float: left;
+  margin-top: 20px;
 }
 .beny_tm_title_holder span {
   display: inline-block;
@@ -965,7 +966,6 @@ body.dark .loader_line:after {
   color: #f5a201;
   font-weight: 500;
   font-size: 16px;
-  margin-bottom: 12px;
 }
 .beny_tm_title_holder span:before {
   position: absolute;
@@ -991,7 +991,6 @@ body.dark .loader_line:after {
   display: flex;
   align-items: center;
   padding-top: 60px;
-  margin-bottom: 120px;
 }
 .beny_tm_about .about_inner .left {
   width: 50%;
@@ -1038,6 +1037,7 @@ body.dark .loader_line:after {
 }
 .beny_tm_about .short p {
   font-size: 16px;
+  text-align: justify;
 }
 .beny_tm_about .extra {
   width: 100%;
@@ -2025,11 +2025,11 @@ body.dark .loader_line:after {
 }
 .beny_tm_news ul {
   margin: 0px 0px 0px -30px;
-  list-style-type: none;
+  list-style-type: square;
 }
 .beny_tm_news ul li {
   margin: 0px 0px 30px 0px;
-  width: 33.3333%;
+  width: 25%;
   padding-left: 30px;
   float: left;
 }
@@ -3480,4 +3480,44 @@ body.intro .loader_line:after {
   border: #f5a201 2px solid;
   background-color: #fff;
   border-radius: 10px;
+}
+
+// ==== Projects Delivered ====
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 6))
+  }
+}
+$animationSpeed: 30s;
+
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  background-color: #08324b;
+  margin: 3rem;
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: calc(200px * 25);
+  }
+
+  .slide {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.slider_title h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 15px;
 }

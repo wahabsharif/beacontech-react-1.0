@@ -53,9 +53,9 @@ const Expertise = () => {
             <div className="service_title">
               <h3>Search Engine Optimization</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* SEO */}
@@ -174,9 +174,9 @@ const Expertise = () => {
             <div className="service_title">
               <h3>3-D Visualization</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Branding & Design */}
@@ -321,9 +321,9 @@ const Expertise = () => {
             <div className="service_title">
               <h4>Software Development</h4>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Mobile App Design */}
@@ -422,9 +422,9 @@ const Expertise = () => {
             <div className="service_title">
               <h5>Advertisement</h5>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Modal Ui/Ux Consultancy */}
@@ -595,9 +595,9 @@ const Expertise = () => {
             <div className="service_title">
               <h3>Branding</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Motion Graphy */}
@@ -682,9 +682,9 @@ const Expertise = () => {
             <div className="service_title">
               <h4>Web Development</h4>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Branding & Design */}
@@ -800,9 +800,9 @@ const Expertise = () => {
             <div className="service_title">
               <h4>Content Writing</h4>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Mobile App Design */}
@@ -940,9 +940,9 @@ const Expertise = () => {
             <div className="service_title">
               <h3>Video Production</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Modal Ui/Ux Consultancy */}

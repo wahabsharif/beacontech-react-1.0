@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
-import { FiBox, FiSun, FiZap, FiGrid, FiPhone } from "react-icons/fi";
+import { FiBox, FiSun, FiZap, FiGrid, FiPhone, FiLoader } from "react-icons/fi";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -33,9 +33,9 @@ const Header = () => {
                 items={[
                   "home",
                   "about",
+                  "portfolio",
                   "service",
                   "news",
-                  "portfolio",
                   "contact",
                 ]}
                 currentClassName="current"
@@ -54,6 +54,12 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
+                  <a href="#portfolio">
+                    <span className="first">Portfolio</span>
+                    <span className="second">Portfolio</span>
+                  </a>
+                </li>
+                <li>
                   <a href="#service">
                     <span className="first">Expertise </span>
                     <span className="second">Expertise </span>
@@ -61,14 +67,8 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#news">
-                    <span className="first">Pricing</span>
-                    <span className="second">Pricing</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#portfolio">
-                    <span className="first">Portfolio</span>
-                    <span className="second">Portfolio</span>
+                    <span className="first">Teams</span>
+                    <span className="second">Teams</span>
                   </a>
                 </li>
                 <li>
@@ -100,7 +100,7 @@ const Header = () => {
         </div>
         <Scrollspy
           className="mobile_menu-icon"
-          items={["home", "about", "service", "portfolio", "news", "contact"]}
+          items={["home", "about", "portfolio", "service", "news", "contact"]}
           currentClassName="current"
           offset={-65}
         >
@@ -117,23 +117,23 @@ const Header = () => {
             </a>
           </li>
           <li>
+            <a href="#portfolio">
+              <FiGrid />
+              <span>Portfolio</span>
+            </a>
+          </li>
+          <li>
             <a href="#service">
               <FiZap />
               <span>Serivce</span>
             </a>
           </li>
           <li>
-            <a href="#portfolio">
-              <FiGrid />
-              <span>Portfolio</span>
+            <a href="#news">
+              <FiLoader />
+              <span>Teams</span>
             </a>
           </li>
-          {/* <li>
-            <a href="#news">
-              <FiCast />
-              <span>News</span>
-            </a>
-          </li> */}
           <li>
             <a href="#contact">
               <FiPhone />

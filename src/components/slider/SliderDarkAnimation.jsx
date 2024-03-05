@@ -75,21 +75,6 @@ const SliderDarkAnimation = () => {
               <Social />
             </div>
             {/* End .social */}
-
-            <div
-              className="beny_tm_button"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="200"
-            >
-              <a className="anchor" href="#about">
-                <span className="wrapper">
-                  <span className="first">See Profile</span>
-                  <span className="second">See Profile</span>
-                </span>
-              </a>
-            </div>
-            {/* End beny_tm_button */}
           </div>
         </div>
       </div>

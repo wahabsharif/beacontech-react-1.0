@@ -4,11 +4,13 @@ import Slider from "../components/slider/SliderDarkAnimation";
 import About from "../components/about/About";
 import Portfolio from "../components/portfolio/Portfolio";
 import Testimonial from "../components/testimonial/Testimonial";
-import Pricing from "../components/team/Pricing";
 import Contact from "../components/Contact";
 import Footer from "../components/footer/Footer";
 import Address from "../components/Address";
 import Expertise from "../components/expertise/Expertise";
+import Teams from "../components/team/Teams";
+import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
+// import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
 
 const Home = () => {
   document.body.classList.add("dark");
@@ -16,10 +18,8 @@ const Home = () => {
     <div className="home-light">
       <Header />
       {/* End Header */}
-
       <Slider />
       {/* End Slider */}
-
       <div className="beny_tm_about" id="about">
         <div className="container">
           <div className="beny_tm_title_holder">
@@ -32,7 +32,23 @@ const Home = () => {
         </div>
       </div>
       {/* /ABOUT */}
-
+      {/* PORTFOLIO */}
+      <div className="beny_tm_portfolio" id="portfolio">
+        <div className="container">
+          <ProjectDelivered />
+          <div className="beny_tm_title_holder">
+            <h2>Our Portfolio</h2>
+            <p>
+              "Browse our portfolio to explore a curated selection of our best
+              work, showcasing expertise in Different areas. From innovative
+              designs to impactful campaigns, these projects demonstrate our
+              dedication to excellence and creativity."
+            </p>
+          </div>
+          <Portfolio />
+        </div>
+      </div>
+      {/* /PORTFOLIO */}
       {/* Expertise */}
       <div className="beny_tm_services" id="service">
         <div className="container">
@@ -51,8 +67,7 @@ const Home = () => {
         </div>
       </div>
       {/* /Expertise */}
-
-      {/* Pricing */}
+      {/* Teams */}
       <div className="beny_tm_news" id="news">
         <div className="container">
           <div className="beny_tm_title_holder">
@@ -65,30 +80,10 @@ const Home = () => {
               exceptional software products tailored to your unique needs."
             </p>
           </div>
-          <Pricing />
+          <Teams />
         </div>
       </div>
-      {/* /Pricing */}
-
-      {/* PORTFOLIO */}
-      <div className="beny_tm_portfolio" id="portfolio">
-        <div className="container">
-          <div className="beny_tm_title_holder">
-            <span>Showcase</span>
-            <h2>Our Portfolio</h2>
-            <p>
-              "Browse our portfolio to explore a curated selection of our best
-              work, showcasing expertise in Different areas. From innovative
-              designs to impactful campaigns, these projects demonstrate our
-              dedication to excellence and creativity."
-            </p>
-          </div>
-          {/* End beny_tm_title */}
-          <Portfolio />
-        </div>
-      </div>
-      {/* /PORTFOLIO */}
-
+      {/* /Teams End */}
       {/* TESTIMONIALS */}
       <div className="beny_tm_testimonials">
         <div className="container">
@@ -112,7 +107,6 @@ const Home = () => {
         </div>
       </div>
       {/* /TESTIMONIALS */}
-
       {/*  CONTACT */}
       <div className="beny_tm_contact" id="contact">
         <div className="container">
@@ -153,7 +147,6 @@ const Home = () => {
         </div>
       </div>
       {/* /CONTACT */}
-
       {/* COPYRIGHT */}
       <div className="beny_tm_copyright">
         <div className="container">
