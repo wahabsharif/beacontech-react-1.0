@@ -3516,8 +3516,15 @@ $animationSpeed: 30s;
 }
 
 .slider_title h2 {
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 700;
-  color: #0f172a;
   margin-bottom: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .slider_title h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }

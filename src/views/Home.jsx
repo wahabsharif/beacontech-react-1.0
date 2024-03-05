@@ -36,7 +36,7 @@ const Home = () => {
       <div className="beny_tm_portfolio" id="portfolio">
         <div className="container">
           <ProjectDelivered />
-          <div className="beny_tm_title_holder">
+          {/* <div className="beny_tm_title_holder">
             <h2>Our Portfolio</h2>
             <p>
               "Browse our portfolio to explore a curated selection of our best
@@ -45,7 +45,7 @@ const Home = () => {
               dedication to excellence and creativity."
             </p>
           </div>
-          <Portfolio />
+          <Portfolio /> */}
         </div>
       </div>
       {/* /PORTFOLIO */}
