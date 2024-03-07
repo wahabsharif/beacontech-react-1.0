@@ -55,7 +55,7 @@ const Home = () => {
           <div className="beny_tm_title_holder">
             <span>What We Do</span>
             <h2>
-              We’ve got everything you need to launch and grow your business
+              We’ve got everything you need to launch and Scale your business
             </h2>
             {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
@@ -72,7 +72,7 @@ const Home = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Team</span>
-            <h2>Beacon Buddies</h2>
+            <h2>THE POWERHOUSE</h2>
             <p>
               "Highly skilled and innovative Beacon Techh team, specializing in
               creating cutting-edge solutions for diverse industries. We combine

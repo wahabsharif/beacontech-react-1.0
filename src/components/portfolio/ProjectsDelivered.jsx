@@ -7,7 +7,7 @@ const ProjectDelivered = () => {
     <>
       <style dangerouslySetInnerHTML={{ __html: "\n  \n  \n\n" }} />
       <div className="slider_title">
-        <h2>Project Delivered</h2>
+        <h2>Projects Delivered</h2>
       </div>
       <div className="slider">
         <div className="slide-track">

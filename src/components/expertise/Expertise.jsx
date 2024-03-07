@@ -59,7 +59,7 @@ const Expertise = () => {
           </div>
 
           {/* SEO */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen}
             onRequestClose={toggleModalOne}
             contentLabel="My dialog"
@@ -71,8 +71,6 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalOne}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
-
               <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
@@ -153,10 +151,8 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
             </div>
-            {/* End modal box news */}
-          </Modal>
+          </Modal> */}
           {/* End Modal SEO*/}
         </li>
         {/* SEO one-1 END */}
@@ -180,7 +176,7 @@ const Expertise = () => {
           </div>
 
           {/* Start Modal Branding & Design */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen2}
             onRequestClose={toggleModalTwo}
             contentLabel="My dialog"
@@ -192,8 +188,6 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalTwo}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
-
               <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
@@ -300,10 +294,8 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
             </div>
-            {/* End modal box news */}
-          </Modal>
+          </Modal> */}
           {/* End Modal Branding & Design */}
         </li>
         {/* 3-D Two-2 End */}
@@ -327,7 +319,7 @@ const Expertise = () => {
           </div>
 
           {/* Start Modal Mobile App Design */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen3}
             onRequestClose={toggleModalThree}
             contentLabel="My dialog"
@@ -339,8 +331,6 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalThree}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
-
               <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
@@ -401,10 +391,8 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
             </div>
-            {/* End modal box news */}
-          </Modal>
+          </Modal> */}
           {/* End Modal Mobile App Design*/}
         </li>
         {/* Software Development Three-3 End*/}
@@ -428,7 +416,7 @@ const Expertise = () => {
           </div>
 
           {/* Start Modal Modal Ui/Ux Consultancy */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen4}
             onRequestClose={toggleModalFour}
             contentLabel="My dialog"
@@ -440,8 +428,6 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalFour}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
-
               <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
@@ -575,10 +561,8 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
             </div>
-            {/* End modal box news */}
-          </Modal>
+          </Modal> */}
           {/* End Modal Ui/Ux Consultancy*/}
         </li>
         {/* Advertisement Four-4 End*/}
@@ -601,7 +585,7 @@ const Expertise = () => {
           </div>
 
           {/* Start Modal Motion Graphy */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen5}
             onRequestClose={toggleModalFive}
             contentLabel="My dialog"
@@ -613,8 +597,6 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalFive}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
-
               <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
@@ -661,10 +643,8 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
             </div>
-            {/* End modal box news */}
-          </Modal>
+          </Modal> */}
           {/* End Modal Motion Graphy */}
         </li>
         {/* Branding & Design Five-5 End*/}
@@ -688,7 +668,7 @@ const Expertise = () => {
           </div>
 
           {/* Start Modal Branding & Design */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen6}
             onRequestClose={toggleModalSix}
             contentLabel="My dialog"
@@ -700,7 +680,7 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalSix}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
+              
 
               <div className="box_inner">
                 <div className="description_wrap scrollable">
@@ -779,10 +759,10 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
+              
             </div>
-            {/* End modal box news */}
-          </Modal>
+            
+          </Modal> */}
           {/* End Modal Branding & Design */}
         </li>
         {/* Web Development Six-6 End */}
@@ -806,7 +786,7 @@ const Expertise = () => {
           </div>
 
           {/* Start Modal Mobile App Design */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen7}
             onRequestClose={toggleModalSeven}
             contentLabel="My dialog"
@@ -818,7 +798,6 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalSeven}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
 
               <div className="box_inner">
                 <div className="description_wrap scrollable">
@@ -919,10 +898,8 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
             </div>
-            {/* End modal box news */}
-          </Modal>
+          </Modal> */}
           {/* End Modal Mobile App Design*/}
         </li>
         {/* Content Writing Seven-7 End*/}
@@ -946,7 +923,7 @@ const Expertise = () => {
           </div>
 
           {/* Start Modal Modal Ui/Ux Consultancy */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen8}
             onRequestClose={toggleModalEight}
             contentLabel="My dialog"
@@ -958,7 +935,6 @@ const Expertise = () => {
               <button className="close-modal" onClick={toggleModalEight}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
               </button>
-              {/* End close icon */}
 
               <div className="box_inner">
                 <div className="description_wrap scrollable">
@@ -1049,10 +1025,8 @@ const Expertise = () => {
                   </div>
                 </div>
               </div>
-              {/* End box inner */}
             </div>
-            {/* End modal box news */}
-          </Modal>
+          </Modal> */}
           {/* End Modal Ui/Ux Consultancy*/}
         </li>
         {/* Video Production Eight-8 End*/}

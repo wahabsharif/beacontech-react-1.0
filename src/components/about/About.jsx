@@ -26,12 +26,8 @@ const AboutDarkAnimation = () => {
         >
           <div className="short">
             <h5>The Brand Face</h5>
-            <h4>
-              <span>CEO, Beacon Techh </span>
-            </h4>
-            <h3>
-              <span>Waqar Jutt</span>
-            </h3>
+            <h3>Waqar Jutt</h3>
+            <h5>CEO, Beacon Techh</h5>
             <p>
               As the <b>CEO</b> of a <b>Beacon Techh (Pvt.) Ltd, Waqar Jutt</b>{" "}
               is a visionary leader dedicated to illuminating brands and forging
