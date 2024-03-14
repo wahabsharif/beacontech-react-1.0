@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/header/Header";
 import Slider from "../components/slider/SliderDarkAnimation";
 import About from "../components/about/About";
-import Portfolio from "../components/portfolio/Portfolio";
+// import Portfolio from "../components/portfolio/Portfolio";
 import Testimonial from "../components/testimonial/Testimonial";
 import Contact from "../components/Contact";
 import Footer from "../components/footer/Footer";
@@ -90,10 +90,10 @@ const Home = () => {
           <div className="beny_tm_title_holder">
             <span>Testimonials</span>
             <h2>What's Clients Say.</h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
-            </p>
+            </p> */}
           </div>
           {/* End beny_tm_title */}
           <div

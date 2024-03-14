@@ -148,7 +148,7 @@ const Teams = () => {
               <div className="details">
                 <h3 className="title">Shahab Munir</h3>
                 <span>
-                  <a href="/">Graphic Chacha</a>
+                  <a href="/">Graphic Expert</a>
                 </span>
               </div>
               {/* End details */}

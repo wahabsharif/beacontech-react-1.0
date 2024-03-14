@@ -3528,3 +3528,38 @@ $animationSpeed: 30s;
     margin-bottom: 10px;
   }
 }
+
+// btm Footer
+
+.footer-nav {
+  position: relative;
+  margin-top: 10px;
+}
+.footer-nav {
+  position: relative;
+  margin-top: 10px;
+}
+.footer-nav li a {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ea0a9;
+  font-size: medium;
+}
+
+.footer-nav li {
+  position: relative;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+.footer-nav li span {
+  color: #00dfc3;
+  font-size: medium;
+}
+
+.footer-nav li img {
+  height: 5vw;
+  width: 5vw;
+  margin-left: 10px;
+}
