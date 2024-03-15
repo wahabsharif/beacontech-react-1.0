@@ -2021,7 +2021,6 @@ body.dark .loader_line:after {
   height: auto;
   clear: both;
   float: left;
-  padding-top: 60px;
 }
 .beny_tm_news ul {
   margin: 0px 0px 0px -30px;
@@ -2101,6 +2100,7 @@ body.dark .loader_line:after {
 }
 .beny_tm_news ul li .details .title {
   text-decoration: none;
+  text-transform: uppercase;
   color: #0f172a;
   margin-top: 5px;
   font-size: 22px;

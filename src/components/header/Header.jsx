@@ -93,11 +93,11 @@ const Header = () => {
       {/* /TOPBAR */}
 
       <div className="mobile-menu-wrapper">
-        <div className="logo-mob">
+        {/* <div className="logo-mob">
           <Link to="/">
             <img src="/img/logo/bt-icon.png" alt="Beacon Techh Logo" />
           </Link>
-        </div>
+        </div> */}
         <Scrollspy
           className="mobile_menu-icon"
           items={["home", "about", "portfolio", "service", "news", "contact"]}

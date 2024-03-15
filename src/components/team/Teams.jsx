@@ -23,7 +23,7 @@ const Teams = () => {
               </div>
               {/* End image */}
               <div className="details">
-                <h3 className="title">Jawad Anwer</h3>
+                <h3 className="title">JAWAD ANWAR</h3>
                 <span>
                   <a href="/">Executive Head</a>
                 </span>
