@@ -25,13 +25,13 @@ export default function SimpleSlider() {
 
   const testimonialContent = [
     {
-      img: "danish-akhunzada.webp",
+      img: "danish-akhunzada.jpg",
       desc: `"Working with Beacon Techh has been a game-changer for our company. Their team's proactive approach and deep understanding of our industry have transformed the way we operate. From implementing cutting-edge software solutions to providing exceptional support, Beacon Techh has exceeded our expectations at every turn. Without a doubt, they are the go-to partner for all our tech needs."`,
       name: "Danish Akhunzada",
       designation: "CEO Amanat Marketing PVT. LTD.",
     },
     {
-      img: "ceo-castle-marketing-fawad-khan-marwat.b7a31158.webp",
+      img: "ceo-castle-marketing-fawad-khan-marwat.jpg",
       desc: `"I can't speak highly enough of Beacon Techh and the impact they've had on our business. Their tailored approach to IT consulting has helped us optimize our processes and achieve remarkable cost savings. Their responsiveness and professionalism set them apart, making them a trusted ally in our journey towards digital transformation. Choosing Beacon Techh was one of the best decisions we've made for our company."`,
       name: "Fawad Khan Marwat",
       designation: "Ceo and Founder Castle Marketing.",
