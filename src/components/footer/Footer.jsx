@@ -13,17 +13,6 @@ const Footer = () => {
             . All rights reserved.
           </p>
         </div>
-        <ul class="footer-nav">
-          <li>
-            <span>Develop With Passion by</span>
-            <a href="https://wahabsharif.me/" target="_blank" rel="noreferrer">
-              <img
-                src="img/wahab-sharif-logo.png"
-                alt="Wahab Sharif Logo"
-              ></img>
-            </a>
-          </li>
-        </ul>
       </div>
     </>
   );

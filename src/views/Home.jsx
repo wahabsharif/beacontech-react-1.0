@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/header/Header";
-import Slider from "../components/slider/SliderDarkAnimation";
 import About from "../components/about/About";
 // import Portfolio from "../components/portfolio/Portfolio";
 import Testimonial from "../components/testimonial/Testimonial";
@@ -10,6 +9,7 @@ import Address from "../components/Address";
 import Expertise from "../components/expertise/Expertise";
 import Teams from "../components/team/Teams";
 import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
+import BannerVideo from "../components/index/BannerVideo";
 // import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
     <div className="home-light">
       <Header />
       {/* End Header */}
-      <Slider />
+      <BannerVideo />
       {/* End Slider */}
       <div className="beny_tm_about" id="about">
         <div className="container">
