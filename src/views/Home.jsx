@@ -18,7 +18,9 @@ const Home = () => {
     <div className="home-light">
       <Header />
       {/* End Header */}
-      <BannerVideo />
+      <div id="/">
+        <BannerVideo />
+      </div>
       {/* End Slider */}
       <div className="beny_tm_about" id="about">
         <div className="container">
