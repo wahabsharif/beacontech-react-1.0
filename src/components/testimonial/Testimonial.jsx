@@ -8,7 +8,7 @@ export default function SimpleSlider() {
     dots: false,
     arrow: true,
     infinite: true,
-    speed: 300,
+    speed: 200,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
@@ -25,19 +25,19 @@ export default function SimpleSlider() {
 
   const testimonialContent = [
     {
-      img: "danish-akhunzada.jpg",
+      img: "danish.png",
       desc: `Beacon Techh's proactive approach and industry expertise transformed our operations.`,
       name: "Danish Akhunzada",
       designation: "CEO Amanat Marketing PVT. LTD.",
     },
     {
-      img: "ceo-castle-marketing-fawad-khan-marwat.jpg",
+      img: "fawad.png",
       desc: `Beacon Techh's tailored IT consulting optimized our processes, saving costs. Trusted ally in digital transformation journey; a top decision.`,
       name: "Fawad Khan Marwat",
       designation: "Ceo and Founder Castle Marketing.",
     },
     {
-      img: "faheem.jpg",
+      img: "faheem.png",
       desc: `Beacon Techh excels with deep knowledge, commitment, and exceptional support. A valued partner in our growth and innovation journey.`,
       name: "Faheem Awan",
       designation: "CEO,Aeon Marketing Pvt.Ltd.",
