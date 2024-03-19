@@ -18,7 +18,7 @@ const Home = () => {
     <div className="home-light">
       <Header />
       {/* End Header */}
-      <div id="/">
+      <div id="home">
         <BannerVideo />
       </div>
       {/* End Slider */}
@@ -59,12 +59,7 @@ const Home = () => {
             <h2>
               We’ve got everything you need to launch and Scale your business
             </h2>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p> */}
           </div>
-          {/* End beny_tm_title */}
           <Expertise />
         </div>
       </div>
