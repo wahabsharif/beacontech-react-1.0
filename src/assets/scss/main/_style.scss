@@ -3557,7 +3557,7 @@ $animationSpeed: 30s;
 
 .video-content {
   position: absolute;
-  left: 50px;
+  left: 50%;
   bottom: 50%;
   z-index: 1;
 }
@@ -3611,8 +3611,8 @@ $animationSpeed: 30s;
     height: 60vh;
   }
     .video-content {
-      left: 80%;
-      bottom: 5px;
+      left: 50%;
+      bottom: 50%;
     }
   
     .video-content button {
