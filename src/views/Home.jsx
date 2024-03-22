@@ -9,7 +9,8 @@ import Address from "../components/Address";
 import Expertise from "../components/expertise/Expertise";
 import Teams from "../components/team/Teams";
 import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
-import BannerVideo from "../components/index/BannerVideo";
+// import BannerVideo from "../components/index/BannerVideo";
+import YouTubePlayer from "../components/index/YouTubePlayer";
 // import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
 
 const Home = () => {
@@ -19,7 +20,8 @@ const Home = () => {
       <Header />
       {/* End Header */}
       <div id="home">
-        <BannerVideo />
+        {/* <BannerVideo /> */}
+        <YouTubePlayer />
       </div>
       {/* End Slider */}
       <div className="beny_tm_about" id="about">

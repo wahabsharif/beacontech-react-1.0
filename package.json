@@ -27,6 +27,7 @@
     "react-text-loop": "^2.3.0",
     "react-transition-group": "^4.4.2",
     "react-typed": "^1.2.0",
+    "react-youtube": "^10.1.0",
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
     "video-react": "^0.16.0",
