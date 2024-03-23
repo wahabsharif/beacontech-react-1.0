@@ -3534,90 +3534,25 @@ $animationSpeed: 30s;
 
 // THE MEAT & POTATOES
 
-.video-fullscreen {
-  position: absolute;
-  z-index: 0;
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .video-container {
   position: relative;
-  display: grid;
-  place-items: center;
+  justify-content: center;
   height: 80vh;
   width: 100%;
-  padding-bottom: 30px;
-  background: black;
 }
-
-.video-content {
+.video-container iframe {
   position: absolute;
-  left: 50%;
-  bottom: 50%;
-  z-index: 1;
-}
-.video-content button {
-  z-index: 1;
-  background-color: #f5a201;
-  border-radius: 25%;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-
-  
-  cursor: pointer;
-  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.video-content button::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 200%;
-  height: 200%;
-  background-color: rgba(245, 162, 1, 2); 
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  animation: pulse  1s infinite ease-in-out;
-}
-
-@keyframes pulse {
-  0% {
-    transform: translate(-50%, -50%) scale(0.5);
-    opacity: 0.7;
-  }
-
-  100% {
-    transform: translate(-50%, -50%) scale(1);
-    opacity: 0;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .video-container {
     height: 60vh;
   }
-    .video-content {
-      left: 50%;
-      bottom: 50%;
-    }
-  
-    .video-content button {
-      padding: 5px 10px;
-    }
 }
 
 @media screen and (max-width: 480px) {

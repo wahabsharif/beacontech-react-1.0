@@ -6,16 +6,16 @@ class YouTubePlayer extends React.Component {
     const videoId = "IgfMij3w7Pk";
 
     const opts = {
-      height: "400",
+      height: "100%",
       width: "100%",
       playerVars: {
-        autoplay: 1, // Autoplay the video
-        rel: 0, // Disable related videos
+        autoplay: 1,
+        rel: 0,
       },
     };
 
     return (
-      <div>
+      <div className="video-container">
         <YouTube videoId={videoId} opts={opts} />
       </div>
     );
