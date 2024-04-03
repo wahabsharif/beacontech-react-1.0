@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./assets/css/style.css";
 import "../node_modules/video-react/dist/video-react.css";
+import PageSEO from "./components/PageSEO";
 
 const App = () => {
   useEffect(() => {
@@ -13,6 +14,7 @@ const App = () => {
   }, []);
   return (
     <div className="beny_tm_all_wrap">
+      <PageSEO />
       <AnimatedCursor
         innerSize={8}
         outerSize={44}

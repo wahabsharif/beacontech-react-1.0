@@ -3,11 +3,13 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./assets/scss/style.scss";
+import PageSEO from "./components/PageSEO";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
+    <PageSEO />
     <App />
   </BrowserRouter>
 );
