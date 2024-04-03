@@ -25,7 +25,6 @@ function PageSEO({ title, description, ogType, ogImage }) {
         <title>{title}</title>
         <meta name="robots" content="follow, index" />
         <meta name="description" content={description} />
-
         <meta property="og:url" content={siteUrl} />
         <meta property="og:type" content={ogType} />
         <meta property="og:site_name" content={siteMetadata.title} />
