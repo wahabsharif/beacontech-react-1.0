@@ -1,62 +1,61 @@
-import React from "react";
-import Header from "../components/header/Header";
-import About from "../components/about/About";
+import React, { useState, useEffect, Suspense } from "react";
 import PageSeo from "../components/PageSEO";
-// import Portfolio from "../components/portfolio/Portfolio";
-import Testimonial from "../components/testimonial/Testimonial";
-import Contact from "../components/Contact";
-import Footer from "../components/footer/Footer";
 import Address from "../components/Address";
 import Expertise from "../components/expertise/Expertise";
-import Teams from "../components/team/Teams";
-import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
-// import BannerVideo from "../components/index/BannerVideo";
 import YouTubePlayer from "../components/index/YouTubePlayer";
-// import ProjectDelivered from "../components/portfolio/ProjectsDelivered";
+
+// Dynamic imports for components
+const Header = React.lazy(() => import("../components/header/Header"));
+const Footer = React.lazy(() => import("../components/footer/Footer"));
+const About = React.lazy(() => import("../components/about/About"));
+const Testimonial = React.lazy(() =>
+  import("../components/testimonial/Testimonial")
+);
+const Contact = React.lazy(() => import("../components/Contact"));
+const ProjectDelivered = React.lazy(() =>
+  import("../components/portfolio/ProjectsDelivered")
+);
+const Teams = React.lazy(() => import("../components/team/Teams"));
 
 const Home = () => {
-  document.body.classList.add("dark");
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
+
+  useEffect(() => {
+    if (isDarkTheme) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [isDarkTheme]);
+
   return (
     <>
       <PageSeo />
-      <div className="home-light">
-        <Header />
-        {/* End Header */}
+      <div className={`home-${isDarkTheme ? "dark" : "light"}`}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Header />
+        </Suspense>
         <div id="home">
-          {/* <BannerVideo /> */}
           <YouTubePlayer />
         </div>
-        {/* End Slider */}
         <div className="beny_tm_about" id="about">
           <div className="container">
             <div className="beny_tm_title_holder">
               <span>FOUNDER & CEO</span>
               <h2>Waqar Ahmad</h2>
             </div>
-            {/* End .beny_tm_title */}
-            <About />
-            {/* End Slider */}
+            <Suspense fallback={<div>Loading...</div>}>
+              <About />
+            </Suspense>
           </div>
         </div>
-        {/* /ABOUT */}
-        {/* PORTFOLIO */}
         <div className="beny_tm_portfolio" id="portfolio">
           <div className="container">
-            <ProjectDelivered />
-            {/* <div className="beny_tm_title_holder">
-            <h2>Our Portfolio</h2>
-            <p>
-              "Browse our portfolio to explore a curated selection of our best
-              work, showcasing expertise in Different areas. From innovative
-              designs to impactful campaigns, these projects demonstrate our
-              dedication to excellence and creativity."
-            </p>
-          </div>
-          <Portfolio /> */}
+            <Suspense fallback={<div>Loading...</div>}>
+              <ProjectDelivered />
+            </Suspense>
           </div>
         </div>
-        {/* /PORTFOLIO */}
-        {/* Expertise */}
         <div className="beny_tm_services" id="service">
           <div className="container">
             <div className="beny_tm_title_holder">
@@ -68,8 +67,6 @@ const Home = () => {
             <Expertise />
           </div>
         </div>
-        {/* /Expertise */}
-        {/* Teams */}
         <div className="beny_tm_news" id="news">
           <div className="container">
             <div className="beny_tm_title_holder">
@@ -83,34 +80,29 @@ const Home = () => {
                 needs."
               </p>
             </div>
-            <Teams />
+            <Suspense fallback={<div>Loading...</div>}>
+              <Teams />
+            </Suspense>
           </div>
         </div>
-        {/* /Teams End */}
-        {/* TESTIMONIALS */}
         <div className="beny_tm_testimonials">
           <div className="container">
             <div className="beny_tm_title_holder">
               <span>Testimonials</span>
               <h2>What's Clients Say.</h2>
-              {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p> */}
             </div>
-            {/* End beny_tm_title */}
             <div
               className="testimonials_list"
               data-aos="fade-right"
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              <Testimonial />
+              <Suspense fallback={<div>Loading...</div>}>
+                <Testimonial />
+              </Suspense>
             </div>
           </div>
         </div>
-        {/* /TESTIMONIALS */}
-        {/*  CONTACT */}
         <div className="beny_tm_contact" id="contact">
           <div className="container">
             <div className="contact_inner">
@@ -127,8 +119,6 @@ const Home = () => {
                   <Address />
                 </div>
               </div>
-              {/* End .left */}
-
               <div
                 className="right"
                 data-aos="fade-right"
@@ -143,20 +133,21 @@ const Home = () => {
                   </p>
                 </div>
                 <div className="fields">
-                  <Contact />
+                  <Suspense fallback={<div>Loading...</div>}>
+                    <Contact />
+                  </Suspense>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* /CONTACT */}
-        {/* COPYRIGHT */}
         <div className="beny_tm_copyright">
           <div className="container">
-            <Footer />
+            <Suspense fallback={<div>Loading...</div>}>
+              <Footer />
+            </Suspense>
           </div>
         </div>
-        {/* /COPYRIGHT */}
       </div>
     </>
   );

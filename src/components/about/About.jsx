@@ -1,5 +1,6 @@
-import React from "react";
-import Skills from "../skills/SkillsAnimation";
+import React, { Suspense } from "react";
+
+const Skills = React.lazy(() => import("../skills/SkillsAnimation"));
 
 const AboutDarkAnimation = () => {
   return (
@@ -44,64 +45,13 @@ const AboutDarkAnimation = () => {
             </p>
           </div>
           <div className="extra">
-            {/* <h3 className="title">Personal Info</h3> */}
-            {/* <div className="list">
-              <ul>
-                <li>
-                  <p>
-                    <span>Name :</span> Bany Jara
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Address :</span> H-400 - Path2UK
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Age :</span> 21 Years
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Phone :</span> +12345667
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Nationality :</span> USA
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Email :</span> yourmail@gmail.com
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Freelance :</span> Available
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Languages :</span> French, English
-                  </p>
-                </li>
-              </ul>
-            </div> */}
-            {/* End list */}
-            {/* <div className="beny_tm_button color-outline">
-              <a href="img/about/cv.webp" download>
-                <span className="wrapper">
-                  <span className="first">Download CV</span>
-                  <span className="second">Download CV</span>
-                </span>
-              </a>
-            </div> */}
+            {/* Additional Info can be placed here */}
           </div>
         </div>
       </div>
-      {/* <Skills /> */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <Skills />
+      </Suspense>
     </>
   );
 };
