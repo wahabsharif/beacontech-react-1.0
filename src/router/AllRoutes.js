@@ -3,6 +3,7 @@ import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 import Home from "../views/Home";
+import BusinessRevamp from "../views/business-revamp";
 
 const AllRoutes = () => {
   return (
@@ -10,6 +11,7 @@ const AllRoutes = () => {
       <ScrollTopBehaviour />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/business-revamp" element={<BusinessRevamp />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
