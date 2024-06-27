@@ -240,6 +240,51 @@ section {
   color: #fff;
 }
 
+/* Universel Examples */
+.universal-examples {
+}
+
+.universal-examples h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.universal-examples-list-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.universal-examples-list-container {
+  display: flex;
+  justify-content: center; /* Optional: Adjust based on your layout needs */
+  gap: 20px; /* Optional: Adjust the gap between images */
+}
+
+.universal-examples-list-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items vertically */
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.universal-examples-list-container img {
+  width: 20rem;
+  height: auto; /* Maintain aspect ratio */
+  margin: auto;
+}
+
+.universal-examples-list-container p {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 /* Responsive */
 @media only screen and (min-width: 48rem) {
   .banner-column {
@@ -293,5 +338,8 @@ section {
   }
   .our-model {
     padding: 0;
+  }
+  .universal-examples h2 {
+    font-size: 1.5rem;
   }
 }

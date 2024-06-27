@@ -4,6 +4,7 @@ import "../../src/assets/css/business-revamp.css";
 import BRNavBar from "../components/business-revamp/BRNavBar";
 import Banner from "../components/business-revamp/Banner";
 import OurModel from "../components/business-revamp/OurModel";
+import UniversalExamples from "../components/business-revamp/UniversalExamples";
 
 const BusinessRevamp = () => {
   return (
@@ -13,6 +14,7 @@ const BusinessRevamp = () => {
       <BRNavBar />
       <Banner />
       <OurModel />
+      <UniversalExamples />
     </div>
   );
 };
