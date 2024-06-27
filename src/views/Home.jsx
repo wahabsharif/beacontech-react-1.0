@@ -1,8 +1,8 @@
-import React, { useState, useEffect, Suspense } from "react";
-import PageSeo from "../components/PageSEO";
+import React, { Suspense, useEffect, useState } from "react";
 import Address from "../components/Address";
 import Expertise from "../components/expertise/Expertise";
 import YouTubePlayer from "../components/index/YouTubePlayer";
+import PageSeo from "../components/PageSEO";
 
 // Dynamic imports for components
 const Header = React.lazy(() => import("../components/header/Header"));
@@ -18,7 +18,7 @@ const ProjectDelivered = React.lazy(() =>
 const Teams = React.lazy(() => import("../components/team/Teams"));
 
 const Home = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(true);
+  const [isDarkTheme] = useState(true);
 
   useEffect(() => {
     if (isDarkTheme) {
