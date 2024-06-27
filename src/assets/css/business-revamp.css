@@ -20,6 +20,10 @@ p {
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3) !important;
 }
 
+.dark-bg {
+  background-color: #08324b !important;
+}
+
 section {
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -85,7 +89,8 @@ section {
 .nav {
   flex: 1;
   padding: 20px 20px;
-  color: #fff;
+  color: #000;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   font-family: Poppins, sans-serif;
@@ -241,12 +246,12 @@ section {
 }
 
 /* Universel Examples */
-.universal-examples {
-}
 
 .universal-examples h2 {
   text-align: center;
   margin: 2rem 0;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .universal-examples-list-title {
@@ -283,6 +288,21 @@ section {
   color: #000;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+/* Why Us */
+.why-us h2 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.why-us p {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 /* Responsive */
