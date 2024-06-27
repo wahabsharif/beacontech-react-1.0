@@ -17,7 +17,10 @@ h6 {
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3) !important;
 }
 p {
-  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3) !important;
+  color: #fff !important;
+}
+span {
+  color: #fff !important;
 }
 
 .dark-bg {
@@ -94,7 +97,7 @@ section {
 
 .nav {
   padding: 20px;
-  color: #000;
+  color: #fff;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -108,9 +111,8 @@ section {
 
 .nav-btn {
   background-color: #f5a201;
-  border: 2px solid #000;
   border-radius: 100px;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   text-align: center;
   font-weight: bold;
   font-family: Poppins, sans-serif;
@@ -119,7 +121,7 @@ section {
 }
 
 .nav-btn a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   display: block;
   width: 100%;
@@ -219,9 +221,10 @@ section {
 }
 
 .btn {
+  margin: 2rem 0;
   display: inline-block;
   font-family: inherit;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
   text-align: center;
@@ -230,7 +233,7 @@ section {
   user-select: none;
   outline: none;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   text-transform: unset;
   transition: all 0.3s ease-in-out;
   cursor: pointer; /* Ensure cursor pointer */

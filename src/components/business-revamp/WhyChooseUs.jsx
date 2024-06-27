@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WhyChooseUs = () => {
   return (
@@ -14,6 +15,11 @@ const WhyChooseUs = () => {
             tangible results. Innovative Solutions: We leverage the latest
             trends and technologies to keep you ahead of the curve.
           </p>
+          <Link to={"/"}>
+            <button className="btn btn-darken btn-inline">
+              Our Other Services
+            </button>
+          </Link>
         </div>
       </div>
     </section>

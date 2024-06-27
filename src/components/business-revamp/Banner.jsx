@@ -15,11 +15,10 @@ const Banner = () => {
             satisfaction, we provide tailored solutions to meet your unique
             needs.
           </p>
-          <button className="btn btn-darken btn-inline">Get Started</button>
         </div>
         <img
           className="banner-image"
-          src="https://i.ibb.co/sVqYmS2/Illustration.png"
+          src="/img/business-revamp-banner-1.png"
           alt="Illustration"
         />
       </div>
