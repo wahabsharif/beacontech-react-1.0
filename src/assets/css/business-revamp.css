@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Business Revamp Page Settings */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,6 +6,28 @@ body {
   color: #333;
   position: relative;
   overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f5a201 !important;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3) !important;
+}
+p {
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+section {
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.br-container {
+  margin: 0 auto;
+  padding: 0 1.25rem;
 }
 
 .background {
@@ -27,8 +49,12 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(5, 66, 118);
-  opacity: 0.8;
+  background: radial-gradient(
+    circle at 85.4% 50.8%,
+    rgb(14, 72, 222) 0%,
+    rgb(3, 22, 65) 74.2%
+  );
+  opacity: 0.9;
   z-index: -1;
 }
 
@@ -76,16 +102,25 @@ body {
   width: 15rem;
 }
 
-/* Banner Section */
-.section {
-  margin: 0 auto;
-  /* padding: 1rem 2rem; */
+/* Banner */
+.banner-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.container {
-  max-width: 5rem;
-  margin: 0 auto;
-  padding: 0 1.25rem;
+.banner-inner {
+  order: 2; /* Ensure banner-inner is on top by default */
+  width: 100%;
+}
+
+.banner-image {
+  order: 1; /* Ensure banner-image is below on smaller screens */
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 8rem;
 }
 
 .paragraph {
@@ -95,14 +130,12 @@ body {
   text-align: justify;
   margin: 0.5rem 0;
 }
-
 .heading-xl {
   font-family: inherit;
   font-size: clamp(1rem, 7vw, 5rem);
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -1px;
-  color: #f5a201;
   margin: 2rem 0;
 }
 
@@ -137,6 +170,7 @@ body {
   background-color: #f5a201; /* Adjust background color */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust box-shadow */
 }
+
 .btn-darken:hover {
   padding: 0.75rem 2rem;
   color: #fff; /* Adjust text color */
@@ -144,12 +178,69 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust box-shadow */
 }
 
-.banner-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+/* Our Model */
+.our-model {
+  padding: 40px 20px;
 }
 
+.model-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.model-content h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #f5a201;
+}
+
+.model-content p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.model-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.model-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.model-list li {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.model-list li:hover {
+  transform: translateY(-5px);
+}
+
+.model-list img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.model-list-description {
+  font-size: 1.1em;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+/* Responsive */
 @media only screen and (min-width: 48rem) {
   .banner-column {
     flex-direction: row;
@@ -157,27 +248,50 @@ body {
     gap: 4rem;
     margin-top: 4rem;
   }
+  section {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .br-container {
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 64rem) {
   .banner-column {
-    gap: 6rem;
+    gap: 2rem;
   }
 
   .banner-image {
     max-width: 33rem;
   }
+  section {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .br-container {
+    margin: 5rem;
+  }
 }
 
-.banner-inner {
-  order: 2; /* Ensure banner-inner is on top by default */
-  width: 100%;
-}
-
-.banner-image {
-  order: 1; /* Ensure banner-image is below on smaller screens */
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
+/* Set image at top and description at bottom on small screens */
+@media only screen and (max-width: 47.99rem) {
+  .model-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .model-list img {
+    margin: 0.5rem auto;
+  }
+  .model-list-description {
+    text-align: center;
+    font-size: clamp(0.5rem, 2vh, 1rem);
+  }
+  .br-container {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .our-model {
+    padding: 0;
+  }
 }

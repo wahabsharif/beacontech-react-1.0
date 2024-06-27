@@ -2,8 +2,8 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="section banner-section">
-      <div className="container banner-column">
+    <section>
+      <div className="br-container banner-column">
         <div className="banner-inner">
           <h1 className="heading-xl">Business Revamp.</h1>
           <p className="paragraph">
